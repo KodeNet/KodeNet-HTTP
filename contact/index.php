@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"> 
 <meta name="description" content="Contact? Use the KodeNet Contact form to get in touch.">
-<meta name="keywords" content="KodeNet,IRC,Linux,XMPP,Jabber,SysAdmin">
+<meta name="keywords" content="KodeNet,IRC,XMPP,Jabber,Contact">
 
 <title>KodeNet | Contact </title>
 
