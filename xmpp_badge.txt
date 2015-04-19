@@ -1,0 +1,1 @@
+<a href='https://xmpp.net/result.php?domain=im.koderoot.net&amp;type=client'><img src='https://xmpp.net/badge.php?domain=im.koderoot.net' alt='xmpp.net score' /></a>

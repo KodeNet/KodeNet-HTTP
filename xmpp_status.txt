@@ -1,0 +1,4 @@
+Display KodeNet XMPP online status on website
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<img src="http://im.koderoot.net/status/username" />
