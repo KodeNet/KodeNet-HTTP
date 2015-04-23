@@ -10,9 +10,9 @@ function linuxUptimez() {
 }
 //day or days
 if ($ut[0]<=1)
-$utd=' day';
-else
 $utd=' days';
+else
+$utd=' day';
 //hour or hours or days
 if ($ut[1]==1)
 $uth=' hour';
