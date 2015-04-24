@@ -43,7 +43,7 @@
 	#fortune {
 	float: right;
 	right: -80%;
-	top: 15%;
+	top: 10%;
 	width: 320px;
 	padding: 10px;
 	margin: 0;
@@ -56,7 +56,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	position: absolute;
-	bottom: 44em;
+	bottom: 49em;
 	height: 24%;
 	width: auto;
 	border-style: none;
