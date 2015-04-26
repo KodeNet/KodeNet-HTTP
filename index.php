@@ -17,7 +17,7 @@
 <body> 
 
 <br>
-<img src="images/banners/koderoot.png" alt="KodeNet Logo" />
+<img src="images/banners/koderoot.png" alt="koderoot banner" />
 
 <canvas id="clock"> </canvas>
 <script src="clock/clock.js"></script>
@@ -46,7 +46,7 @@ echo $f->quoteFromDir("/srv/http/fortune/");
 
 <iframe id="weather" src="http://forecast.io/embed/#lat=37.5509&amp;lon=-121.9822&amp;name=Bay%20Area"> </iframe>
 
-<a id="rightarrow" href="https://space.koderoot.net/bar" title="posts &amp; info"><img src="images/transparent-arrow-right.png" alt="next page" /></a>
+<a id="rightarrow" href="https://space.koderoot.net" title="posts &amp; info"><img src="images/transparent-arrow-right.png" alt="next page" /></a>
 
 <p> <img src="images/XMPP.png" alt="KodeNet XMPP" /> </p>
 <a href='https://xmpp.net/result.php?domain=im.koderoot.net&amp;type=server' target="_blank"><img src='https://xmpp.net/badge.php?domain=im.koderoot.net' alt='xmpp.net score' /></a>
