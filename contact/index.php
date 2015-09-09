@@ -16,7 +16,7 @@
 </head>
 <body> 
 
-<br><a href="http://koderoot.net"><img src="../images/koderoot.png" alt="KodeNet Logo" /> </a>
+<br><a href="http://koderoot.net"><img src="../images/banners/kodenet.png" alt="KodeNet Logo" /> </a>
 
 <canvas id="clock"></canvas> 
 <script src="../clock/clock.js"></script>
