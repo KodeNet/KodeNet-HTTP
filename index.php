@@ -17,7 +17,7 @@
 <body> 
 
 <br>
-<img src="images/banners/koderoot.png" alt="koderoot banner" />
+<img src="images/banners/kodenet.png" alt="koderoot banner" />
 
 <canvas id="clock"> </canvas>
 <script src="clock/clock.js"></script>
@@ -27,13 +27,15 @@
 <div class="page-wrap">
 
 <div id="reddit">
-<script src='//redditjs.com/subreddit.js' data-height='520' data-width='380'  ></script>
+<script src='//redditjs.com/subreddit.js' data-height='820' data-width='380'  ></script>
 </div>
 
+<!-- Disable ->
 <div class="lastfm">
 <img src="images/lastfm_black.gif" alt="Lastfm Logo" /> <br>
 <a href="http://www.last.fm/user/audiolord/?chartstyle=Sevi-BGW"><img src="http://imagegen.last.fm/Sevi-BGW/recenttracks/10/audiolord.gif" alt="audiolord's profile" /></a>
 </div>
+<- Disable -->
 
 <div id="fortune">
 <br>

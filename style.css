@@ -62,7 +62,7 @@
 	border-style: none;
 	border: none;
 	}
-
+/*
 	.lastfm {
 	float: left;
 	left: -88%;
@@ -75,7 +75,7 @@
 	border-width: 0px;
 	border-color: blue;
 	}
-
+*/
 	#rightarrow {
 	float: right;
 	right: -100%;
@@ -124,4 +124,4 @@
 
 	a:hover {
 	color: #0DC2FF;
-	}i
+	}
