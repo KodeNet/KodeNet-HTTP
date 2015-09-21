@@ -34,9 +34,16 @@
 	margin-right: auto;
 	}
 
-	#reddit {
+/*	#reddit {
 	float: left;
 	left: -90%;
+	position: absolute;
+	}
+*/
+	#stock {
+	float: left;
+	left: -75%;
+	top: 5%;
 	position: absolute;
 	}
 

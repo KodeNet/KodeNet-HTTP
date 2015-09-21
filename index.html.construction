@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="KodeNet features IRC, XMPP Jabber, VoIP Mumble and other goodies. The Stuff section hosts several different books including: HTML5, CSS3, OpenLDAP, Perl, Bash, Awk, Sed, UNIX In a Nutshell, systemd for Administrators, Unix and Linux System Administration. Join us on irc.koderoot.net equipped with SSL and register an IRC channel of interest.">
+<meta name="keywords" content="KodeNet,IRC,Linux,XMPP,Jabber,audio chat, audio conference,SysAdmin">
+
+<title>KodeNet | We'll be back! </title>
+</head>
+
+<body>
+The Fremont Datacenter where KodeNet resides suffered a major power outage. KodeNet services are being restored, but may not be 100% fully functional at this time. KodeNet's Datacenter provider is still working to resolve lingering issues. <br><br>
+
+Datacenter updates: <a href="http://status.linode.com">http://status.linode.com</a><br><br>
+
+<a href='https://xmpp.net/result.php?domain=im.koderoot.net&amp;type=client'><img src='https://xmpp.net/badge.php?domain=im.koderoot.net' 
+alt='xmpp.net score' /></a>
+</body>
+</html>
