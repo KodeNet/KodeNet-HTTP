@@ -6,14 +6,21 @@
 <meta name="keywords" content="KodeNet,IRC,Linux,XMPP,Jabber,audio chat, audio conference,SysAdmin">
 
 <title>KodeNet | We'll be back! </title>
+
+<style>
+	body {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	}
+</style>
 </head>
 
 <body>
-The Fremont Datacenter where KodeNet resides suffered a major power outage. KodeNet services are being restored, but may not be 100% fully functional at this time. KodeNet's Datacenter provider is still working to resolve lingering issues. <br><br>
-
-Datacenter updates: <a href="http://status.linode.com">http://status.linode.com</a><br><br>
+	<h1> UNDER CONSTRUCTION </h1> <br>
 
 <a href='https://xmpp.net/result.php?domain=im.koderoot.net&amp;type=client'><img src='https://xmpp.net/badge.php?domain=im.koderoot.net' 
 alt='xmpp.net score' /></a>
+
 </body>
 </html>
