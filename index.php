@@ -27,17 +27,17 @@
 <div class="page-wrap">
 
 <div id="stock">
-<script src="http://100widgets.com/js_data.php?id=158"></script><br>
+<!-- Disable -> <script src="http://100widgets.com/js_data.php?id=158"></script><br>  <- Disable -->
 <script>
 crypt_multi_num_cur = "4";
 crypt_base_cur_0 = "Bitcoin (BTC)";crypt_target_cur_0 = "US Dollar (USD)";crypt_base_cur_1 = "Litecoin (LTC)";crypt_target_cur_1 = "US Dollar (USD)";crypt_base_cur_2 = "Dogecoin (DOGE)";crypt_target_cur_2 = "US Dollar (USD)";crypt_base_cur_3 = "UFO (UFO)";crypt_target_cur_3 = "US Dollar (USD)";crypt_multi_background_color = "#000000";crypt_multi_transperency = false;crypt_multi_font_color = "#FFFFFF";</script><script type="text/javascript" src="https://www.cryptonator.com/ui/js/widget/multi_widget.js"></script>
 </div>
 
-<!-- Disable ->
 <div id="reddit">
-<script src='//redditjs.com/subreddit.js' data-height='820' data-width='380'  ></script>
+<script src='//redditjs.com/subreddit.js' data-height='675' data-width='450'  ></script>
 </div>
 
+<!-- Disable ->
 <div class="lastfm">
 <img src="images/lastfm_black.gif" alt="Lastfm Logo" /> <br>
 <a href="http://www.last.fm/user/audiolord/?chartstyle=Sevi-BGW"><img src="http://imagegen.last.fm/Sevi-BGW/recenttracks/10/audiolord.gif" alt="audiolord's profile" /></a>
@@ -78,7 +78,7 @@ echo $f->quoteFromDir("/srv/http/kodenet/fortune/");
 </p>
 
 <p><img src="images/files.png" alt="Stuff" /> </p>
-<p>&#10154; <a href="https://koderoot.net/stuff">Books and Resources</a> <br>
+<p>&#10154; <a href="https://d.koderoot.net">Books &amp; Resources</a> <br>
 </p>
 
 <p><img src="images/mail.png" alt="mail contact" /> </p>
@@ -121,7 +121,7 @@ echo "Server Uptime: $ut[0]$utd, $ut[1]$uth, $ut[2]$utm, $ut[3]$uts";
 </div>
 
 <footer class="footer"> 
-KodeRoot.Net 2015 &#169; 
+<p> KodeNet 2015 &#169; </p>
 </footer>
 
 </body>
