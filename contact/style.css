@@ -11,22 +11,24 @@
 	width: 80em;
 	height: 80%;
 	margin: 0 auto;
-	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-family: Verdana, Tahoma, Arial, sans-serif; 
 	text-align: center;
 	}
 
 	footer {
 	clear: both;
-	width: 45em;
-        margin: auto;
-        height: 30px;
-        background-color: #1E2127;
-        color: #ffffff;
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+	height: 5em;
+	background-color: #1E2127;
+	color: #ffffff;
 	font-family: Verdana, Arial, sans-serif;
-        font-weight: bold;
-        font-size: 12px;
-        text-align: left;
-        }
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 25px;
+	}
 
 	img {
 	display: block;
@@ -36,8 +38,10 @@
 
 	#uptime {
 	text-align: center;
+	clear: both;
 	position: relative;
 	bottom: -20em;
+	color: white;
 	}
 
 	#clock {
