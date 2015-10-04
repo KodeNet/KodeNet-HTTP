@@ -1,26 +1,30 @@
 /* -----------------------------------------------
- *
- * Filename:	style.css
- * Description:	Contact CSS
- * Website: 	koderoot.net
- * Author:	TC
- *
- * ----------------------------------------------- */
+
+* Filename:	mobile.css
+* Description: contact mobile CSS
+* Website: 	koderoot.net
+* Author:	TC
+
+----------------------------------------------- */
+
+	@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width: 480px) {
 
   body {
-	  width: 80em;
-	  height: 80%;
-	  margin: 0 auto;
-	  font-family: Verdana, Tahoma, Arial, sans-serif; 
-	  text-align: center;
+    width: 80em;
+    height: 80%;
+    margin: 0 auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    text-align: center;
 	}
-  
+
   footer {
     display: block;
     position: fixed;
-    bottom: -4%;
+    bottom: 10%;
     left: 0;
-    height: auto;
+    height: 10%;
     background-color: white;
     width: 100%;
     margin: auto;
@@ -30,12 +34,12 @@
     font-family: Verdana, Arial, sans-serif;
     font-weight: bold;
     font-size: 12px;
-  }
+	}
 
-	img.footerimage {
-  	height: 50%;
-  	margin-left: auto;
-  	margin-right: auto;
+  img.footerimage {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 	img {
@@ -66,7 +70,7 @@
 
 	.page-wrap {
   	position: relative;
-	  width: 500px;
+	  width: 600px;
 	  margin: 0 auto;
 	}
 
