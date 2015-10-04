@@ -18,10 +18,10 @@
   footer {
 	  display: block;
 	  position: fixed;
-	  bottom: 5%;
-	  left: 0;
-	  height: 15%;
-	  background-color: white;
+	  bottom: -4%;
+    left: 0;
+    height: auto;
+    background-color: white;
 	  width: 100%;
 	  margin: auto;
 	  padding-top: 1%;

@@ -75,7 +75,7 @@
 	}
 
 	a:hover {
-	color: #676767;
+	color: #FF00FF;
 	}
 
 	label,a, body {

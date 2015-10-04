@@ -152,16 +152,6 @@ action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>">
 
 </div>
 
-<pre id="uptime">
-<?php include "../uptime/upstat.php";  ?>
-<?php
-$ut = linuxUptimez();
-echo "Server Uptime: $ut[0]$utd, $ut[1]$uth, $ut[2]$utm, $ut[3]$uts";
-?>
-<br>
-</pre>
-<br><br><br><br>
-
 <!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
@@ -178,13 +168,20 @@ echo "Server Uptime: $ut[0]$utd, $ut[1]$uth, $ut[2]$utm, $ut[3]$uts";
 <noscript><p><img src="//stats.koderoot.net/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
 
-<div class="footerimage">
-<img src="../images/footerimage.png" alt="footer image" />
-</div>
-
 <footer class="footer">
-<p> KodeNet 2015 &#169; </p>
-</footer
+<img class="footerimage" src="../images/footerimage.png" alt="footer image" /> <br>
+
+<p> KodeNet 2015 &#169; </p><br>
+<p><a href="https://github.com/variablenix">Github</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br><br>
+
+<pre id="uptime">
+<?php include "../uptime/upstat.php";  ?>
+<?php
+$ut = linuxUptimez();
+echo "Server Uptime: $ut[0]$utd, $ut[1]$uth, $ut[2]$utm, $ut[3]$uts";
+?>
+</pre>
+</footer>
 
 </body>
 </html>
