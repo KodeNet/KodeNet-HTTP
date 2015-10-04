@@ -8,132 +8,119 @@
 ----------------------------------------------- */
 
 	body {
-	width: 80em;
-	height: 80%;
-	margin: 0 auto;
-	font-family: Verdana, Tahoma, Arial, sans-serif;
-	text-align: center;
+		width: 80em;
+		height: 80%;
+		margin: 0 auto;
+		font-family: Verdana, Tahoma, Arial, sans-serif;
+		text-align: center;
 	}
 
 	footer {
-	clear: both;
-	width: 40%;
-	margin: auto;
-	padding: 10px;
-	height: 5em;
-	background-color: #1E2127;
-	color: #ffffff;
-	font-family: Verdana, Arial, sans-serif;
-	font-weight: bold;
-	font-size: 14px;
-	text-align: center;
-	border-radius: 25px;
+		clear: both;
+		width: 40%;
+		margin: auto;
+		padding: 10px;
+		height: 5em;
+		background-color: #1E2127;
+		color: #ffffff;
+		font-family: Verdana, Arial, sans-serif;
+		font-weight: bold;
+		font-size: 14px;
+		text-align: center;
+		border-radius: 25px;
 	}
 
+	div.footerimage {
+  	height: auto;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+
 	img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	#reddit {
-	float: left;
-	left: -90%;
-	position: absolute;
+		float: left;
+		left: -90%;
+		position: absolute;
 	}
 
 	#stock {
-	float: left;
-	left: -75%;
-	top: 85%;
-	position: absolute;
+		float: left;
+		left: -75%;
+		top: 85%;
+		position: absolute;
 	}
 
 	#fortune {
-	float: right;
-	right: -80%;
-	top: 10%;
-	width: 320px;
-	padding: 10px;
-	margin: 0;
-	position: absolute;
-	font-family: Courier, "Courier New", Arial, sans-serif;
-	font-size: 14px;
+		float: right;
+		right: -80%;
+		top: 10%;
+		width: 320px;
+		padding: 10px;
+		margin: 0;
+		position: absolute;
+		font-family: Courier, "Courier New", Arial, sans-serif;
+		font-size: 14px;
 	}
 
 	#weather {
-	float: right;
-	right: -75%;
-	margin-left: auto;
-	margin-right: auto;
-	position: absolute;
-	bottom: 49em;
-	height: 24%;
-	width: auto;
-	border-style: none;
-	border: none;
+		float: right;
+		right: -75%;
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+		bottom: 49em;
+		height: 24%;
+		width: auto;
+		border-style: none;
+		border: none;
 	}
-/*
-	.lastfm {
-	float: left;
-	left: -88%;
-	margin-left: auto;
-	margin-right: auto;
-	position: absolute;
-	bottom: -2em;
-	border: 0;
-	border-style: solid;
-	border-width: 0px;
-	border-color: blue;
-	}
-*/
-	#rightarrow {
-	float: right;
-	right: -100%;
-	margin-left: auto;
-	margin-right: auto;
-	position: absolute;
-	bottom: -20em;
-	height: 24%;
-	width: auto;
-	}
-
-	.footerimage {
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
+	
+  #rightarrow {
+		float: right;
+		right: -100%;
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+		bottom: -20em;
+		height: 24%;
+		width: auto;
 	}
 
 	#uptime {
-	text-align: center;
-	clear: both;
-	position: relative;
-	bottom: -14em;
-	color: white;
+		text-align: center;
+		clear: both;
+		position: relative;
+		bottom: -14em;
+		color: white;
 	}
 
 	#clock {
-	position: absolute;
+		position: absolute;
 	}
 
 	.page-wrap {
-	position: relative;
-	width: 500px;
-	margin: 0 auto;
+		position: relative;
+		width: 500px;
+		margin: 0 auto;
 	}
 
 	link {
-	color: #FF4E0D;
+		color: #FF4E0D;
 	}
 
 	a:visited {
-	color: #FF4719;
+		color: #FF4719;
 	}
 
 	a:link {
-	color: #FF4E0D;
+		color: #FF4E0D;
 	}
 
 	a:hover {
-	color: #0DC2FF;
+		color: #0DC2FF;
 	}
