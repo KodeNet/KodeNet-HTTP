@@ -17,7 +17,7 @@
 <body>
 
 <br>
-<img src="images/banners/kodenet.png" alt="koderoot banner" />
+<img src="images/banners/kodenet-chalk.png" alt="koderoot banner" />
 
 <canvas id="clock"> </canvas>
 <script src="clock/clock.js"></script>
@@ -53,7 +53,7 @@ echo $f->quoteFromDir("/srv/http/kodenet/fortune/");
 ?>
 </div>
 
-<iframe id="weather" src="http://forecast.io/embed/#lat=37.5509&amp;lon=-121.9822&amp;name=Bay%20Area"> </iframe>
+<iframe id="weather" src="https://forecast.io/embed/#lat=37.5509&amp;lon=-121.9822&amp;name=Bay%20Area"> </iframe>
 
 <a id="rightarrow" href="https://space.koderoot.net" title="space"><img src="images/transparent-arrow-right.png" alt="next page" /></a>
 
