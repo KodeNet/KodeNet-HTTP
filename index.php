@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8"> 
-<meta name="description" content="KodeNet features IRC, XMPP Jabber, VoIP Mumble and other goodies. The Stuff section hosts several different books including: HTML5, CSS3, OpenLDAP, Perl, Bash, Awk, Sed, UNIX In a Nutshell, systemd for Administrators, Unix and Linux System Administration. Join us on irc.koderoot.net equipped with SSL and register an IRC channel of interest.">
-<meta name="keywords" content="KodeNet,IRC,Linux,XMPP,Jabber,audio chat, audio conference,SysAdmin">
+<meta name="description" content="The home of KodeNet serving XMPP Jabber, IRC, Mumble VoIP and other goodies. The Resources section hosts several different books including: HTML5, CSS3, OpenLDAP, Perl, Bash, Awk, Sed, UNIX In a Nutshell, systemd for Administrators, Unix and Linux System Administration.">
+<meta name="keywords" content="KodeNet, IRC, Linux, XMPP, Jabber, VoIP audio chat, SysAdmin, HTML5, CSS, Bash, Python, Perl, Systemd ">
 
 <title>KodeNet | Home </title>
 
