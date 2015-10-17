@@ -1,5 +1,0 @@
-<a class="coinbase-button" data-code="3f53a9a33e2755c3da695492d663decd"
-data-button-style="donation_large"
-href="https://www.coinbase.com/checkouts/3f53a9a33e2755c3da695492d663decd">Donate
-Bitcoins</a><script src="https://www.coinbase.com/assets/button.js"
-type="text/javascript"></script>
