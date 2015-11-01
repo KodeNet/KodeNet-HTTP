@@ -106,7 +106,7 @@ echo $f->quoteFromDir("/srv/http/kodenet/fortune/");
 <img class="footerimage" src="images/footerimage.png" alt="footer image" />
 
 <p> KodeNet 2015 &#169; </p>
-<p><a href="https://github.com/variablenix">Github</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br>
+<p><a href="https://github.com/variablenix/http">Github</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br>
 
 <pre id="uptime">
 <?php include "uptime/upstat.php";  ?>

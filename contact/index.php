@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="../clock/clock.css"/>
 <link rel="stylesheet" href="style.css"/>
 <link rel="stylesheet" href="form.css"/>
+<link rel="stylesheet" href="mobile.css"/>
 
 </head>
 <body> 
@@ -172,7 +173,7 @@ action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>">
 <img class="footerimage" src="../images/footerimage.png" alt="footer image" /> <br>
 
 <p> KodeNet 2015 &#169; </p><br>
-<p><a href="https://github.com/variablenix">Github</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br><br>
+<p><a href="https://github.com/variablenix/http">Github</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br><br>
 
 <pre id="uptime">
 <?php include "../uptime/upstat.php";  ?>
