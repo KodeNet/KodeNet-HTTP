@@ -33,7 +33,7 @@
 <!-- BEGIN CONTACT FORM -->
 
 <?php
-$your_email ='admin@koderoot.net'; 
+$your_email ='contact@koderoot.net'; 
 
 session_start();
 $errors = '';

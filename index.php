@@ -79,8 +79,8 @@ echo $f->quoteFromDir("/srv/http/kodenet/fortune/");
 </p>
 
 <p><img src="images/mail.png" alt="mail contact" /> </p>
-<p> &#10154; Email: admin[at]koderoot.net <br>
-&#10154; Pub Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0xC5B47F86C1CF32BF" target="_blank">C1CF32BF</a><br>
+<p> &#10154; Email: contact[at]koderoot.net <br>
+&#10154; Pub Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x10401C1EFFB15BB0" target="_blank">FFB15BB0</a><br>
 &#10154; <a href="https://app.box.com/s/0i0kfdx947cjswc69eg1voefkm9e1676" target="_blank">BBM PIN</a>
 </p>
 </div>
