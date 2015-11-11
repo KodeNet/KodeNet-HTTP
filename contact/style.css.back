@@ -79,6 +79,10 @@ background: linear-gradient(to bottom, rgba(208,208,208,1) 0%,rgba(212,212,212,1
 	  margin: 0 auto;
 	}
 
+  span#years {
+    font-size: 70%;
+  }
+
 	link {
 	  color: #FF4E0D;
 	}

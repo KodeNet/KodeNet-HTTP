@@ -172,7 +172,7 @@ action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>">
 <footer class="footer">
 <img class="footerimage" src="../images/footerimage.png" alt="footer image" /> <br>
 
-<p> KodeNet 2015 &#169; </p><br>
+<p> KodeNet <span id="years">2015</span> <a href="https://en.wikipedia.org/wiki/Copyleft"><img src="../images/copyleft.png"/></p><br>
 <p><a href="https://github.com/variablenix/http">Github</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br><br>
 
 <pre id="uptime">

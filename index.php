@@ -81,7 +81,6 @@ echo $f->quoteFromDir("/srv/http/kodenet/fortune/");
 <p><img src="images/mail.png" alt="mail contact" /> </p>
 <p> &#10154; Email: contact[at]koderoot.net <br>
 &#10154; Pub Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x10401C1EFFB15BB0" target="_blank">FFB15BB0</a><br>
-&#10154; <a href="https://app.box.com/s/0i0kfdx947cjswc69eg1voefkm9e1676" target="_blank">BBM PIN</a>
 </p>
 </div>
 <br><br><br><br><br><br><br><br><br><br>
@@ -105,7 +104,7 @@ echo $f->quoteFromDir("/srv/http/kodenet/fortune/");
 <footer class="footer"> 
 <img class="footerimage" src="images/footerimage.png" alt="footer image" />
 
-<p> KodeNet 2015 &#169; </p>
+<p> KodeNet <span id="years">2015</span> <a href="https://en.wikipedia.org/wiki/Copyleft"><img src="images/copyleft.png" /></p>
 <p><a href="https://github.com/variablenix/http">Github</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br>
 
 <pre id="uptime">
