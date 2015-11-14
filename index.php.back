@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8"> 
-<meta name="description" content="The home of KodeNet serving XMPP Jabber, IRC, Mumble VoIP and other goodies. The Resources section hosts several different books including: HTML5, CSS3, OpenLDAP, Perl, Bash, Awk, Sed, UNIX In a Nutshell, systemd for Administrators, Unix and Linux System Administration.">
+<meta name="description" content="The home of KodeNet serving XMPP Jabber, IRC and other goodies. The Resources section hosts several different books including: HTML5, CSS3, OpenLDAP, Perl, Bash, Awk, Sed, UNIX In a Nutshell, systemd for Administrators, Unix and Linux System Administration.">
 <meta name="keywords" content="KodeNet, IRC, Linux, XMPP, Jabber, VoIP audio chat, SysAdmin, HTML5, CSS, Bash, Python, Perl, Systemd ">
 
 <title>KodeNet | Home </title>
@@ -65,13 +65,6 @@ echo $f->quoteFromDir("/srv/http/kodenet/fortune/");
 <p>&#10154; irc.koderoot.net 6667 <br>
 &#10154; irc.koderoot.net 6697 [SSL] <br>
 &#10154; <a href="https://ircweb.koderoot.net" target="_blank">IRC Web </a>
-</p>
-
-<p> <img src="images/mumble.png" alt="KodeNet VoIP" /> </p>
-<p>&#10154; KodeNet VoIP <br>
-&#10154; <a href="http://www.mumble.com/mumble-download.php" title="open source client" target="_blank">Mumble</a> <br>
-&#10154; Remote: 66.175.221.41 <br>
-&#10154; Port: 64738
 </p>
 
 <p><img src="images/files.png" alt="Stuff" /> </p>
