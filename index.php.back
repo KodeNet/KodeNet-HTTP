@@ -67,10 +67,6 @@ echo $f->quoteFromDir("/srv/http/kodenet/fortune/");
 &#10154; <a href="https://ircweb.koderoot.net" target="_blank">IRC Web </a>
 </p>
 
-<p><img src="images/files.png" alt="Stuff" /> </p>
-<p>&#10154; <a href="https://d.koderoot.net">Resources</a> <br>
-</p>
-
 <p><img src="images/mail.png" alt="mail contact" /> </p>
 <p> &#10154; Email: contact[at]koderoot.net <br>
 &#10154; Pub Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x10401C1EFFB15BB0" target="_blank">FFB15BB0</a><br>
