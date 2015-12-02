@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"> 
 <meta name="description" content="The home of KodeNet serving XMPP Jabber, IRC and other goodies. The Resources section hosts several different books including: HTML5, CSS3, OpenLDAP, Perl, Bash, Awk, Sed, UNIX In a Nutshell, systemd for Administrators, Unix and Linux System Administration.">
-<meta name="keywords" content="KodeNet, IRC, Linux, XMPP, Jabber, VoIP audio chat, SysAdmin, HTML5, CSS, Bash, Python, Perl, Systemd ">
+<meta name="keywords" content="KodeNet, IRC, Linux, XMPP, Jabber, Chat">
 
 <title>KodeNet | Home </title>
 
@@ -36,7 +36,7 @@ crypt_base_cur_0 = "Bitcoin (BTC)";crypt_target_cur_0 = "US Dollar (USD)";crypt_
 <- Disable -->
 
 <div id="reddit">
-<script src='//redditjs.com/subreddit.js' data-height='750' data-width='450'  ></script>
+<script src='//redditjs.com/subreddit.js' data-height='480' data-width='450'  ></script>
 </div>
 
 <div id="fortune">
