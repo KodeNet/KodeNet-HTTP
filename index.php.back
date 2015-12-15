@@ -2,8 +2,13 @@
 <html>
 <head>
 <meta charset="utf-8"> 
+<<<<<<< HEAD
 <meta name="description" content="The home of KodeNet - serving XMPP and IRC">
 <meta name="keywords" content="KodeNet, XMPP, Jabber, IRC, Chat">
+=======
+<meta name="description" content="The home of KodeNet serving XMPP Jabber, IRC and other goodies. The Resources section hosts several different books including: HTML5, CSS3, OpenLDAP, Perl, Bash, Awk, Sed, UNIX In a Nutshell, systemd for Administrators, Unix and Linux System Administration.">
+<meta name="keywords" content="KodeNet, IRC, Linux, XMPP, Jabber, Chat">
+>>>>>>> 8ccee5ca4cff445ac9bae40e747faee23439d2e3
 
 <title>KodeNet | Home </title>
 

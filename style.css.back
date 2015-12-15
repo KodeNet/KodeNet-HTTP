@@ -60,13 +60,13 @@
   #fortune {
     float: right;
     right: -80%;
-    top: 2%;
+    top: 5%;
     width: 320px;
     padding: 10px;
     margin: 0;
     position: absolute;
     font-family: Courier, "Courier New", Arial, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
   }
   
   #weather {
@@ -75,8 +75,8 @@
     margin-left: auto;
     margin-right: auto;
     position: absolute;
-    bottom: 38.5em;
-    height: 23%;
+    bottom: 31.5em;
+    height: 25%;
     width: auto;
     border-style: none;
     border: none;
