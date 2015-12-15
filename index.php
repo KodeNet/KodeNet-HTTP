@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8"> 
-<meta name="description" content="The home of KodeNet serving XMPP Jabber, IRC and other goodies. The Resources section hosts several different books including: HTML5, CSS3, OpenLDAP, Perl, Bash, Awk, Sed, UNIX In a Nutshell, systemd for Administrators, Unix and Linux System Administration.">
-<meta name="keywords" content="KodeNet, IRC, Linux, XMPP, Jabber, VoIP audio chat, SysAdmin, HTML5, CSS, Bash, Python, Perl, Systemd ">
+<meta name="description" content="The home of KodeNet - serving XMPP and IRC">
+<meta name="keywords" content="KodeNet, XMPP, Jabber, IRC, Chat">
 
 <title>KodeNet | Home </title>
 
@@ -36,7 +36,7 @@ crypt_base_cur_0 = "Bitcoin (BTC)";crypt_target_cur_0 = "US Dollar (USD)";crypt_
 <- Disable -->
 
 <div id="reddit">
-<script src='//redditjs.com/subreddit.js' data-height='750' data-width='450'  ></script>
+<script src='//redditjs.com/subreddit.js' data-height='480' data-width='450'  ></script>
 </div>
 
 <div id="fortune">
@@ -67,10 +67,6 @@ echo $f->quoteFromDir("/srv/http/kodenet/fortune/");
 &#10154; <a href="https://ircweb.koderoot.net" target="_blank">IRC Web </a>
 </p>
 
-<p><img src="images/files.png" alt="Stuff" /> </p>
-<p>&#10154; <a href="https://d.koderoot.net">Resources</a> <br>
-</p>
-
 <p><img src="images/mail.png" alt="mail contact" /> </p>
 <p> &#10154; Email: contact[at]koderoot.net <br>
 &#10154; Pub Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x10401C1EFFB15BB0" target="_blank">FFB15BB0</a><br>
@@ -97,7 +93,7 @@ echo $f->quoteFromDir("/srv/http/kodenet/fortune/");
 <footer class="footer"> 
 <img class="footerimage" src="images/footerimage.png" alt="footer image" />
 
-<p> KodeNet <span id="years">2015</span> <a href="https://en.wikipedia.org/wiki/Copyleft"><img src="images/copyleft.png" /></p>
+<p> KodeNet <span id="years">2012-16</span> <a href="https://en.wikipedia.org/wiki/Copyleft"><img src="images/copyleft.png" /></p>
 <p><a href="https://github.com/variablenix/http">Github</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br>
 
 <pre id="uptime">
