@@ -10,9 +10,7 @@
 <link rel="icon" href="https://koderoot.net/favicon.ico?v=2"/>
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Duru+Sans"/>
 <link rel="stylesheet" href="../clock/clock.css"/>
-<link rel="stylesheet" href="style.css"/>
-<link rel="stylesheet" href="form.css"/>
-<link rel="stylesheet" href="mobile.css"/>
+<link type="text/css" rel="stylesheet" href="css/styles.css">
 
 </head>
 <body> 
@@ -28,128 +26,31 @@
 
 <div class="page-wrap">
 <br>
+	<!-- BEGIN CONTACT FORM -->
+
+	    <form action="form.php" method="post" enctype="multipart/form-data">
+
+	        <h1 class="title">Contact</h1>
+
+		    <label></label>
+		    <input name="name" required="required" placeholder="Your Name">
 
 
-<!-- BEGIN CONTACT FORM -->
+		    <label></label>
+		    <input name="email" type="email" required="required" placeholder="Your Email">
 
-<?php
-$your_email ='contact@koderoot.net'; 
 
-session_start();
-$errors = '';
-$name = '';
-$visitor_email = '';
-$user_message = '';
+		    <label></label>
+		    <textarea name="message" cols="20" rows="5" required="required" placeholder="Message"></textarea>
 
-if(isset($_POST['submit']))
-{
 
-	$name = $_POST['name'];
-	$visitor_email = $_POST['email'];
-	$user_message = $_POST['message'];
-	///------------Do Validations-------------
-	if(empty($name)||empty($visitor_email))
-	{
-		$errors .= "\n Name and Email are required fields. ";
-	}
-	if(IsInjected($visitor_email))
-	{
-		$errors .= "\n Bad email value!";
-	}
-	if(empty($_SESSION['6_letters_code'] ) ||
-	  strcasecmp($_SESSION['6_letters_code'], $_POST['6_letters_code']) != 0)
-	{
-	//Note: the captcha code is compared case insensitively.
-	//if you want case sensitive match, update the check above to
-	// strcmp()
-		$errors .= "\n The captcha code does not match!";
-	}
+		    <input id="cancel" name="cancel" value="Cancel" />
 
-	if(empty($errors))
-	{
-		//send the email
-		$to = $your_email;
-		$subject="New KodeNet form submission";
-		$from = $your_email;
-		$ip = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '';
+		    <input id="submit" name="submit" type="submit" value="Submit">
 
-		$body = "Hi admin,\n\nYou received a new message from $name\n\n".
-		"Name: $name\n".
-		"Email: $visitor_email \n\n".
-		"Message: ".
-		"$user_message\n\n".
-		"IP: $ip\n";
-
-		$headers = "From: $from \r\n";
-		$headers .= "Reply-To: $visitor_email \r\n";
-
-		mail($to, $subject, $body,$headers);
-
-		header('Location: thanks.html');
-	}
-}
-
-// Function to validate against any email injection attempts
-function IsInjected($str)
-{
-  $injections = array('(\n+)',
-              '(\r+)',
-              '(\t+)',
-              '(%0A+)',
-              '(%0D+)',
-              '(%08+)',
-              '(%09+)'
-              );
-  $inject = join('|', $injections);
-  $inject = "/$inject/i";
-  if(preg_match($inject,$str))
-    {
-    return true;
-  }
-  else
-    {
-    return false;
-  }
-}
-?>
-<!-- a helper script for vaidating the form-->
-<script src="scripts/gen_validatorv31.js"> </script>
-<?php
-if(!empty($errors)){
-echo "<p class='err'>".nl2br($errors)."</p>";
-}
-?>
-<div id='contact_form_errorloc' class='err'></div>
-
-<div class="form">
-<form method="POST" name="contact_form"
-action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>">
-<p>
-<label for='name'>Name: </label><br>
-<input type="text" name="name" placeholder="tux" value='<?php echo htmlentities($name) ?>' id="name">
-</p>
-<p>
-<label for='email'>Email: </label><br>
-<input type="text" name="email" placeholder="tux@koderoot.net" value='<?php echo htmlentities($visitor_email) ?>' id="email">
-</p>
-<p>
-<label for='message'>Message:</label> <br>
-<textarea name="message" placeholder="The world's greatest penguin." rows=8 cols=30 id="message"><?php echo htmlentities($user_message) ?></textarea>
-</p>
-<p>
-<img src="captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg' alt="captcha code"><br>
-<label for='message'>Enter the code above here </label><br>
-<input id="6_letters_code" name="6_letters_code" type="text"><br>
-<small>Can't read the image? click <a href='javascript: refreshCaptcha();'>here</a> to refresh</small>
-</p>
-<input type="submit" value="Submit" name='submit'>
-</form>
-</div>
-
-<script src="scripts/form.js"> </script>
+	    </form>
 
 <!-- END CONTACT FORM -->
-
 
 </div>
 
@@ -169,11 +70,13 @@ action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>">
 <noscript><p><img src="//stats.koderoot.net/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
 
-<footer class="footer">
-<img class="footerimage" src="../images/footerimage.png" alt="footer image" /> <br>
+<br>
 
-<p> KodeNet <span id="years">2015</span> <a href="https://en.wikipedia.org/wiki/Copyleft"><img src="../images/copyleft.png" alt="Copyleft" /></a></p><br>
-<p><a href="https://github.com/variablenix/http">Github</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br><br>
+<footer class="footer">
+<img class="footerimage" src="../images/footerimage.png" alt="footer image" />
+
+<p> KodeNet <span id="years">2012-16</span> <a href="https://en.wikipedia.org/wiki/Copyleft"><img src="../images/copyleft.png" alt="Copyleft" /></a></p>
+<p> <a href="https://github.com/variablenix/http">Github</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br><br>
 
 <pre id="uptime">
 <?php include "../uptime/upstat.php";  ?>
