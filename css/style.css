@@ -7,79 +7,79 @@
 
 ----------------------------------------------- */
 
-  body {
-    width: 80em;
-    height: 80%;
-    margin: 0 auto;
-    font-family: Verdana, Tahoma, Arial, sans-serif;
-    text-align: center;
-  }
+body {
+    	width: 80em;
+    	height: 80%;
+    	margin: 0 auto;
+    	font-family: Verdana, Tahoma, Arial, sans-serif;
+    	text-align: center;
+}
 
-  footer {
-    display: block;
-    position: fixed;
-    bottom: -4%;
-    left: 0;
-    height: auto;
-    background-color: white;
-    width: 100%;
-    margin: auto;
-    padding-top: 1%;
-    text-align: center;
-    color: #000000;
-    font-weight: bold;
-    font-size: 12px;
-  }
+footer {
+    	display: block;
+    	position: fixed;
+    	bottom: -4%;
+    	left: 0;
+    	height: auto;
+    	background-color: white;
+    	width: 100%;
+    	margin: auto;
+    	padding-top: 1%;
+    	text-align: center;
+    	color: #000000;
+    	font-weight: bold;
+    	font-size: 12px;
+}
 
-  img.footerimage {
-    height: 50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+img.footerimage {
+    	height: 50%;
+    	margin-left: auto;
+    	margin-right: auto;
+}
 
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+img {
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+}
 
-  #reddit {
-    float: left;
-    left: -90%;
-    position: absolute;
-  }
+#reddit {
+    	float: left;
+    	left: -90%;
+	position: absolute;
+}
 
-  #stock {
-    float: left;
-    left: -75%;
-    top: 85%;
-    position: absolute;
-  }
+#stock {
+    	float: left;
+    	left: -75%;
+    	top: 85%;
+    	position: absolute;
+}
 
-  #fortune {
-    float: right;
-    right: -80%;
-    top: 5%;
-    width: 320px;
-    padding: 10px;
-    margin: 0;
-    position: absolute;
-    font-family: Courier, "Courier New", Arial, sans-serif;
-    font-size: 12px;
-  }
+#fortune {
+    	float: right;
+    	right: -80%;
+    	top: 5%;
+    	width: 320px;
+    	padding: 10px;
+    	margin: 0;
+    	position: absolute;
+    	font-family: Courier, "Courier New", Arial, sans-serif;
+    	font-size: 12px;
+}
   
-  #weather {
-    float: right;
-    right: -75%;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    bottom: 31.5em;
-    height: 25%;
-    width: auto;
-    border-style: none;
-    border: none;
-  }
+#weather {
+    	float: right;
+    	right: -75%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	position: absolute;
+    	bottom: 31.5em;
+    	height: 25%;
+    	width: auto;
+    	border-style: none;
+	border: none;
+}
 
   /*	
   #rightarrow {
@@ -94,40 +94,24 @@
   }
    */
 
-  #uptime {
-    text-align: center;
-    clear: both;
-    position: relative;
-    bottom: 3em;
-    color: black;
-  }
+#uptime {
+    	text-align: center;
+    	clear: both;
+    	position: relative;
+    	bottom: 3em;
+	color: black;
+}
   
-  #clock {
-    position: absolute;
-   }
+#clock { position: absolute; }
 
-   .page-wrap {
-     position: relative;
-     width: 500px;
-     margin: 0 auto;
-	}
+.page-wrap {
+     	position: relative;
+     	width: 500px;
+	margin: 0 auto;
+}
 
-  span#years {
-    font-size: 70%;
-  }
-
-	link {
-    color: #FF4E0D;
-	}
-
-	a:visited {
-    color: #FF4719;
-	}
-
-	a:link {
-    color: #FF4E0D;
-	}
-
-	a:hover {
-    color: #676767;
-	}
+span#years { font-size: 70%; }
+link { color: #FF4E0D; }
+a:visited { color: #FF4719; }
+a:link { color: #FF4E0D; }
+a:hover { color: #676767; }
