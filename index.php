@@ -100,7 +100,7 @@ echo $f->quoteFromDir("/srv/http/kodenet/fortune/");
 <?php include "uptime/upstat.php";  ?>
 <?php
 $ut = linuxUptimez();
-echo "Server Uptime: $ut[0]$utd, $ut[1]$uth, $ut[2]$utm, $ut[3]$uts";
+echo "Server Uptime: $ut[0]$utd, $ut[1]$uth, $ut[2]$utm";
 ?>
 </pre>
 </footer>
