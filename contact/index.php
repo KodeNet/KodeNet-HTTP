@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Duru+Sans"/>
 <link rel="stylesheet" href="../clock/clock.css"/>
 <link type="text/css" rel="stylesheet" href="css/styles.css">
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
 <body> 
@@ -26,7 +27,8 @@
 
 <div class="page-wrap">
 <br>
-	<!-- BEGIN CONTACT FORM -->
+
+<!-- BEGIN CONTACT FORM -->
 
 	    <form action="form.php" method="post" enctype="multipart/form-data">
 
@@ -43,11 +45,10 @@
 		    <label></label>
 		    <textarea name="message" cols="20" rows="5" required="required" placeholder="Message"></textarea>
 
-
 		    <input id="cancel" name="cancel" value="Cancel" />
 
 		    <input id="submit" name="submit" type="submit" value="Submit">
-
+		
 	    </form>
 
 <!-- END CONTACT FORM -->
@@ -82,7 +83,7 @@
 <?php include "../uptime/upstat.php";  ?>
 <?php
 $ut = linuxUptimez();
-echo "Server Uptime: $ut[0]$utd, $ut[1]$uth, $ut[2]$utm, $ut[3]$uts";
+echo "Server Uptime: $ut[0]$utd, $ut[1]$uth, $ut[2]$utm";
 ?>
 </pre>
 </footer>
