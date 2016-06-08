@@ -93,7 +93,7 @@ echo $f->quoteFromDir("/srv/http/kodenet/fortune/");
 <footer class="footer"> 
 <img class="footerimage" src="images/footerimage.png" alt="footer image" />
 
-<p> KodeNet <span id="years"> 2012-<?php echo date("Y") ?> </span> <a href="https://en.wikipedia.org/wiki/Copyleft"><img src="images/copyleft.png" alt='copyleft' /></a> </p>
+<p> KodeNet <span id="years"> 2012-<?php echo date("Y") ?> </span> <a href="https://en.wikipedia.org/wiki/Copyleft" target="_blank"><img src="images/copyleft.png" alt='copyleft' /></a> </p>
 <p><a href="https://github.com/variablenix/http">Github</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br>
 
 <pre id="uptime">
