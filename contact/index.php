@@ -8,7 +8,6 @@
 <title>KodeNet | Contact </title>
 
 <link rel="icon" href="https://koderoot.net/favicon.ico?v=2"/>
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Duru+Sans"/>
 <link rel="stylesheet" href="../clock/clock.css"/>
 <link type="text/css" rel="stylesheet" href="css/styles.css">
 <script src='https://www.google.com/recaptcha/api.js'></script>
@@ -16,18 +15,9 @@
 </head>
 <body> 
 
-<br><a href="http://koderoot.net"><img src="../images/banners/kodenet-chalk.png" alt="kodenet banner" /> </a>
-
-<canvas id="clock"></canvas> 
-<script src="../clock/clock.js"></script>
-
-<div id="home">
-<a href="http://koderoot.net"><img src="../images/home-icon.png" alt="KodeNet Home" title="HOME" /></a>
-</div>
-
 <div class="page-wrap">
 <br>
-
+<a href="http://koderoot.net"><img src="../images/banners/kodenet-chalk.png" height="80" width="380" alt="kodenet banner" /></a>
 <!-- BEGIN CONTACT FORM -->
 
 	    <form action="form.php" method="post" enctype="multipart/form-data">
@@ -52,7 +42,6 @@
 	    </form>
 
 <!-- END CONTACT FORM -->
-
 </div>
 
 <!-- Piwik -->
@@ -72,11 +61,11 @@
 <!-- End Piwik Code -->
 
 <br>
-
+<hr>
 <footer class="footer">
 <img class="footerimage" src="../images/footerimage.png" alt="footer image" />
 
-<p> KodeNet <span id="years"> 2012-<?php echo date("Y") ?> </span> <a href="https://en.wikipedia.org/wiki/Copyleft"><img src="../images/copyleft.png" alt="Copyleft" /></a></p>
+<p> KodeNet <span id="years"> 2012-<?php echo date("Y") ?> </span> | <img src="../images/copyleft.png" alt="Copyleft" /></p>
 <p> <a href="https://github.com/variablenix/http">Github</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br><br>
 
 <pre id="uptime">
