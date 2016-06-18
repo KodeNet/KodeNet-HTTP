@@ -78,7 +78,7 @@ ul#left { float: left; }
 ul#right { float: right; }
 
 span#years { font-family: 'Cuprum', Arial, Verdana, sans-serif; font-size: 80%; }
-link { color: #FF4E0D; }
+link { color: #4B84FF; }
 a:visited { color: #FF4719; }
 a:link { color: #4b84ff; text-decoration: none; }
 a:hover { color: #0957ff; }
@@ -89,6 +89,5 @@ a {
   	-ms-transition:.5s;
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
-  /* ...and now for the proper property */
   	transition:.5s;
 }
