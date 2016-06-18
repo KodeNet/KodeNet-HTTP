@@ -66,7 +66,7 @@
 <img class="footerimage" src="../images/footerimage.png" alt="footer image" />
 
 <p> KodeNet <span id="years"> 2012-<?php echo date("Y") ?> </span> | <img src="../images/copyleft.png" alt="Copyleft" /></p>
-<p> <a href="https://github.com/variablenix/http">Github</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br><br>
+<p> <a href="https://github.com/variablenix/http">GitHub</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br><br>
 
 <pre id="uptime">
 <?php include "../uptime/upstat.php";  ?>
