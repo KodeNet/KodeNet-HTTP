@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/kode
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://koderoot.net
+  * I am kode (https://keybase.io/kode) on keybase.
+  * I have a public key with fingerprint AE07 7304 6AFD B73F C6B1  CAD4 B26C 5FB2 FF7F E91A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101387677be03dfecaf852a54b37a75313943998cca25bc4a700898e0c23c39777d0a",
+            "fingerprint": "ae0773046afdb73fc6b1cad4b26c5fb2ff7fe91a",
+            "host": "keybase.io",
+            "key_id": "b26c5fb2ff7fe91a",
+            "kid": "0101387677be03dfecaf852a54b37a75313943998cca25bc4a700898e0c23c39777d0a",
+            "uid": "0ba8e1e5a89330ed3f159a67fd6c8019",
+            "username": "kode"
+        },
+        "service": {
+            "hostname": "koderoot.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1467985291,
+    "expire_in": 157680000,
+    "prev": "48ac1652bc1b62f0a113c8be20b268c00b08da5a625e013de9162dfeb9c1c473",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - http://gpgtools.org
+
+owGtUmtQVGUYPmB4WYVZp9BEkDqQI8HsnPtlSWVqEnYaoRDa0dyO5/IdOAJ7lrOH
+lRWE6WICxs0RQhFjGAnIkkYZUgYpswZzC5UoCmUyLhWKaJkzlQmdYzXTj372/fnm
+e9/neb7nfeatCZ0HWYKO53LH50qnIoICUwLkLH23qQgWVMkP24vgHHD/ArkS8Opc
+jiLBdhhBERRnaIqmBYDgkgxEXmZIjCcJAad5msRRnCVwlmVEkcdIQSR4GkEYlgGI
+iOEiztI0LSE8nADLijsLaB5NceuGLA8QmsYRguJlSaBxWaQEVOQlQsAokZQFTJZp
+GbCoScxWvSbDMCfwXmBTVKNmPLj79v4D/z/7LvhLTuAZgAKSZ1gcR4CEyyjJ8hQt
+S5TIIChrAr1Ac/N5wPSqSgDelQAbFZ8iAjNUc4p/dTVV1W1uoBs8j6bqqqjmGp1s
+Xfd47SZT93tM6A4gcH+LcILilowMDYYPaF5FdcN21ECKumKqogRFs8aALJoAg0KP
+ogFOMREkTTGIccx/gM+QJBheRCkSE0Q0Q6AwGeFRFBcZAWCIESYjIoiAMBJP8hRG
+AiNDyYiVwowABVZERYLGYXOufLcK2ynDJ59laHqVLDevF2jG0Jby4MgHoCALND8k
+2NwuyLLI+s/K2VqsUNuejObsnpD0DeeIuMjRJ2e5yT6tbtnlNUcsT9QEHPip5C+q
+zi0ty01Z1eHra8v07+0oa8XT03YdTQ1cGxny57js4dejBxcOBKCC4n1ua8bqpMMv
+f9WwLX9z482x5vgrdyoXBh+75Hp47aj/k46tLfXYO/sq4yDQmn3Y6cgrvZDmqA1b
+E/7bsQfvna1yTFINJY9ctH7Paflzw69GcKdHyIqqicCOmHpX57fjUF74h/iixu3f
+eGa86xOHC6Bsi1/3ReElTMXZ55uOZPp3lkwkhxUNTg91JFURS1+/++LVDRNBoYvn
+TlTF9neFrHho56GPfPHdvfMut/UMZd3af2+8++vU3tisuajeLeubBr5cGVHxM9y/
+ZJmt/amRk290xv/iP/Nep7T/p8X51c4b3et2P77a2ZX4lvDK53Fkup762sa3Z1zO
+m59WL0jK/KwR6l1eFnWyP779fG1oyCQ9wEUS88uXjO4pD5spLo59oSN6/GDdic3B
+u2O25D0mFfaH3rpTHr2u0nlt0/axoNYrngMhPwRwh7dy69iNU2tzAo6m2dAGtObQ
+9We19uHfHcVS4jPva9vQAxufnt50wfXo6CrbH9+dviR3xSkXV96ebFanWn5sfG42
+bDTZl/dm4ceZiT1XU/AzrqLlLfCKkWkuhS64XWerHXZ/4IlJi/w156XB6r6j9dR5
+610iP32ofOxP
+=4P2I
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kode
+
+==================================================================
+
