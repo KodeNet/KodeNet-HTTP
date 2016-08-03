@@ -17,7 +17,7 @@
 
 <div class="page-wrap">
 <br>
-<a href="http://koderoot.net"><img src="../images/banners/kodenet-chalk.png" height="80" width="380" alt="kodenet banner" /></a>
+<a href="https://koderoot.net"><img src="../images/banners/kodenet-banner-8-3-2016.png" height="80" width="380" alt="kodenet banner" /></a>
 <!-- BEGIN CONTACT FORM -->
 
 	    <form action="form.php" method="post" enctype="multipart/form-data">
