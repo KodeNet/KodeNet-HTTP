@@ -17,7 +17,7 @@
 <div class="page-wrap">
 <div id="content">
 
-<h1><img src="images/banners/kodenet-banner-scaled-7-9-2016.png" height="80" width="380" alt="banner" /></h1>
+<h1><img src="images/banners/kodenet-banner-8-3-2016.png" height="80" width="380" alt="banner" /></h1>
 
 <ul>
 <li> <img src="images/XMPP.png" alt="KodeNet XMPP" /> </li>
