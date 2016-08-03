@@ -10,7 +10,6 @@
 <link rel="icon" href="https://koderoot.net/favicon.ico?v=2"/>
 <link rel="stylesheet" href="../clock/clock.css"/>
 <link type="text/css" rel="stylesheet" href="css/styles.css">
-<script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
 <body> 
@@ -50,7 +49,7 @@
 <img class="footerimage" src="../images/footerimage.png" alt="footer image" />
 
 <p> KodeNet <span id="years"> 2012-<?php echo date("Y") ?> </span> | <img src="../images/copyleft.png" alt="Copyleft" /></p>
-<p> <a href="https://github.com/variablenix/http">GitHub</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br><br>
+<p> <a href="https://github.com/variablenix/KodeNet-HTTP">GitHub</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br><br>
 
 <pre id="uptime">
 <?php include "../uptime/upstat.php";  ?>
