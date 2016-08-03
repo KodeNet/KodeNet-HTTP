@@ -17,7 +17,7 @@
 <div class="page-wrap">
 <div id="content">
 
-<h1><img src="https://koderoot.net/images/banners/kodenet-chalk.png" height="80" width="380" alt="banner" /></h1>
+<h1><img src="images/banners/kodenet-banner-scaled-7-9-2016.png" height="80" width="380" alt="banner" /></h1>
 
 <ul>
 <li> <img src="images/XMPP.png" alt="KodeNet XMPP" /> </li>
@@ -44,7 +44,7 @@
 <img class="footerimage" src="images/footerimage.png" alt="footer image" />
 
 <p> KodeNet <span id="years"> 2012-<?php echo date("Y") ?> </span> | <img src="images/copyleft.png" alt='copyleft' /> </p>
-<p><a href="https://github.com/variablenix/http">GitHub</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br>
+<p><a href="https://github.com/variablenix/KodeNet-HTTP">GitHub</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br>
 
 <pre id="uptime">
 <?php include "uptime/upstat.php";  ?>
