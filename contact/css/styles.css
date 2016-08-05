@@ -3,35 +3,38 @@
 * Filename:	style.css
 * Description:	Main CSS
 * Website: 	koderoot.net
-* Edited:	TC
+* Author:	TC
 
 ----------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Duru+Sans|Oswald|Muli:300|Orbitron|Inconsolata|Cuprum|Source+Code+Pro);
+@import url(https://fonts.googleapis.com/css?family=Duru+Sans|Oswald|Muli:300|Orbitron|Inconsolata|Cuprum|Source+Code+Pro|Share+Tech+Mono);
 
 /*
-Code Author: Mark-Anthony Karam
+Original Code Author: Mark-Anthony Karam
 Host: mark-anthony.ca
+Heavily Modified: TC
 */
 
-h1
-{
-font-family: 'Oswald', sans-serif;
-font-size: 30px;
-text-transform: uppercase;
-color: #216182;
+html {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        margin: 1%; margin-left: 20%; margin-right: 20%;
+        background-color: #d6e8ff;
 }
 
-
-/* Centres the page (this could be container)*/
-.body {
-    display:block;
-    margin:0 auto;
-    width:576px;
-    font-family: 'Muli', sans-serif;
-    font-size: 16px;
-    color: #999;
+*, *:before, *:after {
+        box-sizing: inherit;
+        -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
 }
 
+body {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FFFFFF;
+        box-shadow: 5px 5px 10px #888888;
+}
 
 /* Labels are titles for the text fields. You can use a placeholder instead if you like*/
 label
@@ -45,14 +48,15 @@ label
 form
 {
     margin:0 auto;
-    width:459px;
+    max-width: 100%;
     float: left;
+    padding: 5% 0 0 12%;
 }
 
 /* Styles the text boxes */
 input, textarea, file {
-    width:439px;
-    height:27px;
+    width:100%;
+    height:30px;
     background-color:#efefef;
     border-radius:5px;
     -moz-border-radius:5px;
@@ -114,36 +118,18 @@ textarea
     opacity:0.9;
 }
 
-html {
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        margin: 1%;
-        background-color: #d6e8ff;
-}
-
-*, *:before, *:after {
-        box-sizing: inherit;
-        -webkit-box-sizing: inherit;
-        -moz-box-sizing: inherit;
-}
-
-body {
-    	max-width: 55%;
-    	margin-left: auto;
-        margin-right: auto;
-	background-color: #FFFFFF;
-	box-shadow: 5px 5px 10px #888888;
-}
+/* more custom layout */
 
 footer {
     	display: block;
     	background-color: #FFFFFF;
     	width: 100%;
     	margin: auto;
+	padding: 2% 0 0 0;
+	border-top: groove 1px;
     	text-align: center;
     	color: #000000;
-    	font-size: 80%;
+    	font-size: 90%;
 	font-family: 'Orbitron', Verdana, sans-serif;
 	overflow: hidden;
 }
@@ -159,26 +145,60 @@ img {
     	margin-right: auto;
 }
 
-h1 { font-family: 'Orbitron', Arial, sans-serif; font-size: 300%; text-align: center; }
- 
+#banner {
+        overflow: hidden;
+        padding: 0 0 0 0;
+}
+
 .page-wrap {
      	position: relative;
-     	max-width: 80%;
-	margin: 0 auto;
+	padding: 2.9% 0 0 4%;
 	overflow: hidden;
 }
+
+h2 { text-align: left; }
 
 #uptime {
         text-align: center;
         clear: both;
         position: relative;
-        bottom: 3em;
-        color: black;
-	font-weight: bold;
+        bottom: 0;
+        color: #000;
+        background-color: white;
+        border: none;
+        font-size: 81%;
+        font-family: 'Share Tech Mono', sans-serif;
+}
+
+div#staff-online-status-container {
+        float: right;
+        padding: 3.5%;
+}
+
+header table.staff-online-status {
+        position: absolute; top: 0; right: 0;
+        margin: 10px;
+        font-size: 12px;
+}
+
+table.staff-online-status th, table.staff-online-status td {
+        padding: 2px;
+}
+
+table.staff-online-status th {
+        text-align: left; vertical-align: top;
+        color: #777777;
+        font-family: 'Inconsolata', sans-serif;
+	font-size: 90%;
+}
+
+table.staff-online-status td {
+        text-align: right;
+        color: #555555;
 }
 
 span#years { font-family: 'Cuprum', Arial, Verdana, sans-serif; font-size: 80%; }
-link { color: ##4B84FF; }
+link { color: #4B84FF; }
 a:visited { color: #4B84FF; }
 a:link { color: #4b84ff; text-decoration: none; }
 a:hover { color: #0957ff; }

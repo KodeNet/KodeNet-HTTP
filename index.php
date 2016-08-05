@@ -10,21 +10,48 @@
 <link rel="icon" href="https://koderoot.net/favicon.ico?v=2"/>
 <link rel="stylesheet" href="css/style.css"/>
 
+<!-- Converse -->
+<link type="text/css" rel="stylesheet" media="screen" href="converse/components/bootstrap/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="converse/components/fontawesome/css/font-awesome.min.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="converse/css/converse.min.css" />
+<script src="converse/dist/converse.js"></script>
+<!-- Converse -->
+
 </head>
 <body>
 
+<div id="staff-online-status-container">
+<table class="staff-online-status">
+<tr>
+<th> Staff Online </th>
+<td> <a href="xmpp:staff@im.koderoot.net"><img src="https://im.koderoot.net/status/staff" /></a> </td>
+</tr>
+</table>
+
+<table class="staff-online-status">
+<tr>
+<td> <a href="mailto:contact@koderoot.net"><img src='images/mail.png' height="30" width="30" title="email staff" alt="mail contact" /></a> </td>
+<td> <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x10401C1EFFB15BB0" target="_blank"><img src='images/email-public-key.png' height="30" width="30" title="email public key" alt="email public key" /></a>  </td>
+<td> <a href="xmpp:staff@im.koderoot.net"><img src="images/Messaging-Chat-icon.png" height="30" width="30" title="chat staff" alt="XMPP web chat client" /></a>  </td>
+</tr>
+</table>
+</div>
+
 <br>
 <div class="page-wrap">
+
+<div id="banner">
+<img src="images/banners/kodenet-banner-8-3-2016.png" height="58" width="280" alt="banner" />
+</div>
+
 <div id="content">
-
-<h1><img src="images/banners/kodenet-banner-8-3-2016.png" height="80" width="380" alt="banner" /></h1>
-
+<br>
 <ul>
 <li> <img src="images/XMPP.png" alt="KodeNet XMPP" /> </li>
 <li><a href='https://xmpp.net/result.php?domain=im.koderoot.net&amp;type=server' target="_blank"><img src='https://xmpp.net/badge.php?domain=im.koderoot.net' alt='xmpp.net score' /></a></li>
 <li> im.koderoot.net 5222</li>
 <li> muc.im.koderoot.net</li>
-<li><a href="https://xmpp.koderoot.net/" target="_blank">XMPP Web</a></li></ul>
+</ul><br>
 
 <ul>
 <li><img src="images/IRC.png" alt="KodeNet IRC" /> </li>
@@ -32,19 +59,14 @@
 <li> irc.koderoot.net 6697 <strong>SSL</strong> </li>
 <li> <a href="https://ircweb.koderoot.net" target="_blank">IRC Web </a></li></ul>
 
-<ul>
-<li><img src="images/mail.png" alt="mail contact" /> </li>
-<li>contact@koderoot.net|<a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x10401C1EFFB15BB0" target="_blank">FFB15BB0</a></li></ul>
+</div></div><br><br>
 
-</div></div>
-
-<hr>
 <!-- footer -->
 <footer class="footer"> 
-<img class="footerimage" src="images/footerimage.png" alt="footer image" />
+<img class="footerimage" src="images/footerimagev2.png" alt="footer image" />
 
 <p> KodeNet <span id="years"> 2012-<?php echo date("Y") ?> </span> | <img src="images/copyleft.png" alt='copyleft' /> </p>
-<p><a href="https://github.com/variablenix/KodeNet-HTTP">GitHub</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p> <br>
+<p><a href="https://github.com/variablenix/KodeNet-HTTP">GitHub</a> | <a href="https://space.koderoot.net/node/2">XMPP/Jabber</a> | <a href="http://koderoot.net/contact">Contact</a> </p>
 
 <pre id="uptime">
 <?php include "uptime/upstat.php";  ?>
@@ -77,5 +99,6 @@ echo "Server Uptime: $ut[0]$utd, $ut[1]$uth, $ut[2]$utm";
 <img src="https://stats.koderoot.net/piwik.php?idsite=1&rec=1" style="border:0" alt="" />
 <!-- End Piwik -->
 
+<script src="converse/mainchat.js"></script>
 </body>
 </html>

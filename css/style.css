@@ -6,13 +6,13 @@
 * Author:	TC
 
 ----------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Orbitron|Inconsolata|Cuprum|Source+Code+Pro);
+@import url(https://fonts.googleapis.com/css?family=Orbitron|Inconsolata|Cuprum|Source+Code+Pro|Share+Tech+Mono);
 
 html {
         box-sizing: border-box;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
-        margin: 1%;
+        margin: 1%; margin-left: 20%; margin-right: 20%;
         background-color: #d6e8ff;
 }
 
@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    	max-width: 55%;
+    	max-width: 100%;
     	margin-left: auto;
         margin-right: auto;
 	background-color: #FFFFFF;
@@ -35,9 +35,11 @@ footer {
     	background-color: #FFFFFF;
     	width: 100%;
     	margin: auto;
+	padding: 2% 0 0 0;
+	border-top: groove 1px;
     	text-align: center;
     	color: #000000;
-    	font-size: 80%;
+    	font-size: 90%;
 	font-family: 'Orbitron', Verdana, sans-serif;
 	overflow: hidden;
 }
@@ -48,19 +50,23 @@ img.footerimage {
     	margin-right: auto;
 }
 
-h1 { font-family: 'Orbitron', Arial, sans-serif; text-align: left; }
- 
+#banner { 
+	overflow: hidden;
+	padding: 0 0 0 5%;
+} 
+
 .page-wrap {
      	position: relative;
-     	max-width: 87%;
 	overflow: hidden;
+	padding: 0.2% 0 0 0;
 }
 
 #content {
         font-family: 'Source Code Pro', Arial, sans-serif;
         font-size: 100%;
-	line-height: 140%;
-	padding-left: 15%;
+	line-height: 180%;
+	padding: 5% 0 0 12%;
+	max-width: 100%;
         background-color: #FFFFFF;
 }
 
@@ -68,10 +74,42 @@ h1 { font-family: 'Orbitron', Arial, sans-serif; text-align: left; }
         text-align: center;
         clear: both;
         position: relative;
-        bottom: 3em;
-        color: black;
-	font-weight: bold;
+        bottom: 0;
+        color: #000;
+	background-color: white;
+	border: none;
+	font-size: 81%;
+	font-family: 'Share Tech Mono', sans-serif;
 }
+
+div#staff-online-status-container {
+	float: right;
+	padding: 4%;
+}
+
+header table.staff-online-status {
+	position: absolute; top: 0; right: 0;
+	margin: 10px;
+	font-size: 12px;
+}
+        
+table.staff-online-status th, table#staff-online-status td {
+	padding: 2%;
+}
+
+table.staff-online-status th {
+        text-align: left; vertical-align: top;
+        color: #777777;
+        font-family: 'Inconsolata', sans-serif;
+        font-size: 90%;
+}
+
+table.staff-online-status td {
+	text-align: right;
+	color: #555555;
+	padding: 2.7% 2% 0 2%;
+}
+
 
 ul { list-style: none; }
 ul#left { float: left; }
