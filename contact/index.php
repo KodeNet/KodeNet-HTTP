@@ -25,11 +25,11 @@
 <table class="staff-online-status">
 <tr>
 <th> Staff Online </th>
-<td> <a href="xmpp:staff@im.koderoot.net"><img src="https://im.koderoot.net/status/staff" /></a> </td>
+<td> <a href="xmpp:staff@im.koderoot.net"><img src="https://im.koderoot.net/status/staff" alt="KodeNet XMPP staff" /></a> </td>
 </tr>
 </table>
 
-<table class="staff-online-status"
+<table class="staff-online-status">
 <tr>
 <td> <a href="mailto:contact@koderoot.net"><img src='../images/mail.png' height="30" width="30" title="email staff" alt="mail contact" /></a> </td>
 <td> <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x10401C1EFFB15BB0" target="_blank"><img src='../images/email-public-key.png' height="30" width="30" title="email public key" alt="email public key" /></a>  </td>
@@ -48,7 +48,6 @@
 
 	    <form action="form.php" method="post" enctype="multipart/form-data">
 
-	        <h2 class="title">Contact</h2>
 
 		    <label></label>
 		    <input name="name" required="required" placeholder="Your Name">
