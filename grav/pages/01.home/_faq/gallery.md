@@ -6,16 +6,13 @@ background_image: ''
 
 # XMPP
 **Can anyone register an account?**
-Yes. XMPP registrations are open to anyone looking for an XMPP account. 
+Yes. Public XMPP registrations are open to those looking for a chat account.
 
 **How long are inactive accounts kept?**
 Inactive user accounts are removed after 6 months.
 
 **Why does my new account already show someone in my buddy list?**
 New JID accounts will see a Support Contact in the roster list, but it is not required to have. This user can be removed or re-added at any time.
-
-**Are connections encrypted?**
-Yes. SSL/TLS encryption is [required](https://github.com/stpeter/manifesto/blob/master/manifesto.txt) between clients and servers (C2S) and server to server (S2S) connections.
 
 **How are user credentials protected?**
 User account credentials are [hashed](https://en.wikipedia.org/wiki/Cryptographic_hash_function) and [salted](https://en.wikipedia.org/wiki/Salt_(cryptography)). 
