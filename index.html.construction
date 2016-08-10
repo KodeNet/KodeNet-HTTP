@@ -2,10 +2,10 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="description" content="The home of KodeNet - serving XMPP and IRC">
+<meta name="description" content="The KodeNet domain - serving XMPP and IRC">
 <meta name="keywords" content="KodeNet, XMPP, Jabber, IRC, Chat">
 
-<title>KodeNet | We'll be back! </title>
+<title>We'll Be Back | KodeNet</title>
 
 <style>
 	body {
@@ -13,12 +13,28 @@
 	width: 50%;
 	padding: 10px;
 	}
+	h1 { font-family: Arial, sans-serif; }
+	link { color: #4B84FF; }
+	a:visited { color: #4B84FF; }
+	a:link { color: #4b84ff; text-decoration: none; }
+	a:hover { color: #0957ff; }
+
+a {
+	color: #4b84ff;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition:.5s;
+}
 </style>
 </head>
 
 <body>
-	<h1> UNDER CONSTRUCTION </h1> <br>
-
+	<h1> Under Construction </h1> 
+	
+	<a href="https://im.koderoot.net/xmpp_register">Jabber ID Registration</a> <br><br>
+		
 <a href='https://xmpp.net/result.php?domain=im.koderoot.net&amp;type=client'><img src='https://xmpp.net/badge.php?domain=im.koderoot.net' 
 alt='xmpp.net score' /></a>
 

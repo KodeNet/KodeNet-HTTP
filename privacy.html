@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="KodeNet - open and secure communication">
+<meta name="keywords" content="KodeNet Privacy Policy">
+
+<title>KodeNet XMPP Privacy Policy</title>
+</head><body>
+
+<p>Please read and understand the details described in this privacy policy.&nbsp;We respect and take user privacy very seriously!</p>
+
+<p>Due to the location of the server and citizenship of the operator, this server is subject to the laws and regulations of the United States of America.&nbsp;<strong>Please keep this in mind. Consider <a href="https://otr.cypherpunks.ca/" target="_blank">OTR</a> if you register an account on this server.</strong>&nbsp;If the policies and behavior of the United States government concern you, you may wish to create an account on another&nbsp;<a href="https://list.jabber.at" target="_blank">Public XMPP Server</a> hosted in a jurisdiction other than the United States.</p>
+
+<h2>The basics</h2>
+
+<p>This page attempts to describe what personal information this jabber server stores about user accounts. If you have any questions, please don't hesitate to <a href="https://space.koderoot.net/node/7">contact us</a>.</p>
+
+<p>Per default, the server stores the following data about you:</p>
+
+<ul>
+	<li>The Jabber ID (JID), consisting of user name and domain, used for identifying your account.</li>
+	<li>The password to your account for authorization when your client connects to the server. The password is stored as a <a href="https://en.wikipedia.org/wiki/Cryptographic_hash_function" target="_blank">hash</a>&nbsp;+&nbsp;<a href="https://en.wikipedia.org/wiki/Salt_(cryptography)" target="_blank">salt</a>.</li>
+	<li>The saved contacts (often called "buddies") of a user, plus information about the visibility between this account and the contacts. This ensures that your buddy list stays the same, no matter which client you are using.</li>
+	<li>Date and time of account creation and when your account was last used. We use that data to periodically delete unused accounts.</li>
+	<li>"Offline messages" (that is, messages others send to you while you are offline) are stored until you log in again, along with the time the message was sent.</li>
+	<li>If an error occurs while delivering messages, we save a log entry detailing who sent the message to whom at which point of time and why it failed. The actual content of the message is not a part of that entry. We only need the metadata to determine the root of the problem.</li>
+</ul>
+
+<p>Additionally,&nbsp;a Jabber client may store data on the server. If that data is accessible to others (like a vCard which contains contact details) or accessible only to you (like configuration settings for a Jabber client) lies in the hand of the client you use.</p>
+
+<h2>What happens to that data?</h2>
+
+<p>The information about our users are neither being used commercially nor sold or otherwise made available to third parties. No advertisements are being sent to the users of this service.</p>
+
+<p>There exist a few exceptions to that rule: When a user stores data specifically to make it available to others (think of, for example, a stored vCard), it can be retrieved by other users.</p>
+
+<p>The Jabber IDs (JID) of users will not be published; if a user, however, publishes his/her ID, third parties could use that information to send advertisements to that user. This is not unlikely to occur with the receival of a common mail message through the email transport. The provider of this service specifically forbids using it to send unsolicited (that is, not explicitly requested) ads. However, the provider can not guarantee all users' compliance to this rule.</p>
+
+<p>Messages sent from a user to another one connected to a different server can be sent to the latter entity. How data is being treated at the receiving end can differ from what is described in this document. The same holds true for information the user has selected for display to other users or all users (e.g. information about the online status/the presence).</p>
+
+<p>Users of gateways to other IM networks may find that the preservation of his/her privacy also depends on the other system. Specifically, some other systems allow third parties to see the presence/online status of users without their confirmation.</p>
+
+<p>The Jabber server does not report the IP addresses of users to other users. All communication using the Jabber protocol (XMPP) takes place with the server as a middleman. Clients can, however, exchange IP addresses, for instance before starting a file transfer. The server will neither examine those addresses nor forward them to third parties.</p>
+
+<p>Statistics about the server's load will be derived from collected data. These statistics are anonymous. No information about single persons can be obtained from them.</p>
+
+<h3>Who can access this data?</h3>
+
+<p>The server is housed in Linode's Fremont Datacenter. <strong>Please see <a href="https://www.linode.com/privacy" target="_blank">Linode's Privacy Policy</a></strong>. All backup data is encrypted and signed using <a href="https://www.gnupg.org/" target="_blank">GPG</a> over a remotely&nbsp;encrypted session.&nbsp;Please exercise best practices for roster management and always use OTR on this (and any!) XMPP service.</p>
+
+<h2>Is SSL supported?</h2>
+
+<p>We support both SSL and TLS, and our Jabber server has been enabled with ciphersuites that support <a href="https://en.wikipedia.org/wiki/Perfect_forward_secrecy" target="_blank">Perfect Forward Secrecy</a>.&nbsp;Please use OTR as added protection when using this service.</p>
+
+<p>Although encryption is required for s2s and c2s connections, the connection between your roster buddies and their server may be in cleartext (due to the other user not using SSL). The same holds true for messages that need to be transmitted to other Jabber servers or other IM systems. In that case, it is recommended to use end-to-end encryption of single messages. Some clients can enable this behavior by using PGP, GnuPG or OTR; in this case, the message is also not comprehensible on the Jabber server itself.</p>
+
+</body>
+</html>
