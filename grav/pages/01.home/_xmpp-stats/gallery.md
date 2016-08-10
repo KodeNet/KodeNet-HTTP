@@ -3,7 +3,7 @@ title: Stats
 heading: 'XMPP stats'
 ---
 
-Here are some common stats for KodeNet XMPP
+Here are some common stats
 
 <img src="https://munin.koderoot.net/kodenet/kodenet/prosody_c2s-day.png" alt="XMPP c2s Day Stats" />
 <img src="https://munin.koderoot.net/kodenet/kodenet/prosody_c2s-week.png" alt="XMPP c2s Week Stats" />
