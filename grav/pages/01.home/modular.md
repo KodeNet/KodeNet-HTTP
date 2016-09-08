@@ -11,6 +11,7 @@ content:
             - _xmpp-info
             - _kodeim-info
             - _xmpp-stats
+	    - _docs
             - _irc-info
             - _faq
             - _contact
@@ -45,7 +46,7 @@ form:
             from: "{{ config.plugins.email.from }}"
             to:
               - "{{ config.plugins.email.from }}"
-            subject: "[Contact] Messag from {{ form.value.name|e }}"
+            subject: "[Contact] Message from {{ form.value.name|e }}"
             body: "{% include 'forms/data.html.twig' %}"
         - save:
             fileprefix: contact-
