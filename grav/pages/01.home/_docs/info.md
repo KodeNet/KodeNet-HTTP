@@ -2,7 +2,7 @@
 title: Docs
 heading: 'Kode Docs'
 background_image: Documentation.jpg
-content_position: left
+content_position: right
 images:
     -
         title: Documentation

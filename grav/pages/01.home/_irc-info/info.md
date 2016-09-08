@@ -2,7 +2,7 @@
 title: IRC
 heading: 'IRC info'
 background_image: abstract-binary-colorful.jpg
-content_position: right
+content_position: left
 ---
 
 ![](irc.png) 
