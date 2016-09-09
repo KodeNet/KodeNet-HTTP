@@ -9,6 +9,4 @@ images:
         full: Documentation.jpg
 ---
 
-Need help connecting or registering on the KodeNet XMPP network?
-
-See the [Documentation Page](/docs).
+The [Documentation pages](/docs) are an available resource to help with connecting or registering on the KodeNet XMPP network. 
