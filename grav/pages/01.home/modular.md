@@ -10,7 +10,7 @@ content:
             - _about
             - _xmpp-info
             - _kodeim-info
-            - _xmpp-stats
+            - _stats
             - _docs
             - _irc-info
             - _faq
