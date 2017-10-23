@@ -3,7 +3,7 @@ title: FAQ
 heading: FAQ
 background_image: ''
 ---
-
+<br>
 # XMPP
 **Can anyone register an account?**
 Yes. Public XMPP registrations are open to those looking for a chat account. 
@@ -35,6 +35,7 @@ Spam and abuse including advertisements of any kind will not be tolerated on thi
 **What else can be done to help with spam?**
 KodeNet XMPP enforces Off-the-Record (OTR) encryption and blocks strangers not in your roster list. There are also measures in place to block entire spammer domains.
 
+<br>
 # IRC
 **How do I register a nick?**
 `/msg NickServ Help Register` or `/ns Help Register`
@@ -44,3 +45,8 @@ KodeNet XMPP enforces Off-the-Record (OTR) encryption and blocks strangers not i
 
 **How do I request a vhost?**
 `/msg HostServ Help` or `/hs Help`
+
+<br>
+# Support
+**How can I report issues?**
+New issues can be submitted on the project's [GitHub](https://github.com/KodeNet/statuspage/issues) page. Be sure to use an appropriate [labels](https://github.com/KodeNet/statuspage/labels).
