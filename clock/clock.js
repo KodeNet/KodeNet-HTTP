@@ -13,8 +13,8 @@
 	var canvas = null,
 		context = null,
 		settings = {
-			font: {
-				family: '"Duru Sans", Helvetica, sans-serif',
+			font: { 
+				family: '"Droid Sans Mono", "Open Sans Condensed", "Oswald", "Source Code Pro", "Duru Sans", Helvetica, sans-serif',
 				style: 'default' // default or shadow
 			},
 			timeFormat: '12hr'

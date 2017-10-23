@@ -16,20 +16,19 @@ body {
     font: 1em Helvetica, sans-serif;
 }
 */
-
 canvas {
-        /* without 'display' the scrollbars will appear when setting width/height using window.innerHeight */
-        display: inline-block;
-        width: 40%;
-        height: 40%;
-        position: absolute;
-        top: 1em;
-        left: -5%;
-	margin: 0;
-	padding: 0;
+  /* without 'display' the scrollbars will appear when setting width/height using window.innerHeight */
+  display: inline-block;
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  top: 1em;
+  left: -8%;
+  margin: 0;
+  padding: 1% 0 0 0;
 
-        /*border: 0.3em solid #ccc;
-        border-radius: 1em;
-        -webkit-border-radius: 1em;*/
-        transition: all 1s ease-in-out;
+  /*border: 0.3em solid #ccc;
+   * border-radius: 1em;
+   * -webkit-border-radius: 1em;*/
+transition: all 1s ease-in-out;
 }
