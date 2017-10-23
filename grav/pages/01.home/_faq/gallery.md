@@ -49,4 +49,4 @@ KodeNet XMPP enforces Off-the-Record (OTR) encryption and blocks strangers not i
 <br>
 # Support
 **How can I report issues?**
-New issues can be submitted on the project's [GitHub](https://github.com/KodeNet/statuspage/issues) page. Be sure to use an appropriate [labels](https://github.com/KodeNet/statuspage/labels).
+New issues can be submitted on the project's [GitHub](https://github.com/KodeNet/statuspage/issues) page. Be sure to use appropriate [labels](https://github.com/KodeNet/statuspage/labels).
