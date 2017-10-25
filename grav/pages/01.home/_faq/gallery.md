@@ -33,7 +33,7 @@ Users can update their existing password using a number of XMPP clients for in-b
 Spam and abuse including advertisements of any kind will not be tolerated on this network. For spam or abuse please email abuse@kode.email with the full details. If Staff is online you can also send an Instant Message.
 
 **What else can be done to help with spam?**
-KodeNet XMPP enforces Off-the-Record (OTR) encryption and blocks strangers not in your roster list. There are also measures in place to block entire spammer domains.
+KodeNet XMPP blocks strangers not in your roster list. There are also measures in place to block entire spammer domains.
 
 <br>
 # IRC
