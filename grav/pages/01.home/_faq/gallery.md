@@ -49,4 +49,4 @@ KodeNet XMPP blocks strangers not in your roster list. There are also measures i
 <br>
 # Support
 **How can I report issues?**
-New issues can be submitted on the project's [GitHub](https://github.com/KodeNet/statuspage/issues) page. Be sure to use appropriate [labels](https://github.com/KodeNet/statuspage/labels).
+New issues can be submitted on the project's [GitHub](https://github.com/KodeNet/statuspage/issues) page.
