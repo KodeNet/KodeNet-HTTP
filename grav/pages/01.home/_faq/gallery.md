@@ -37,14 +37,7 @@ KodeNet XMPP blocks strangers not in your roster list. There are also measures i
 
 <br>
 # IRC
-**How do I register a nick?**
-`/msg NickServ Help Register` or `/ns Help Register`
-
-**How do I register a new channel?**
-`/msg ChanServ Help Register` or `/cs Help Register`
-
-**How do I request a vhost?**
-`/msg HostServ Help` or `/hs Help`
+See [the docs](https://www.koderoot.net/docs/irc/info) on connecting to the network, registering usernames, channels and vhosts. 
 
 <br>
 # Support
