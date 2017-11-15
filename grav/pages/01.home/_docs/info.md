@@ -9,4 +9,4 @@ images:
         full: Documentation.jpg
 ---
 
-The [Documentation pages](/docs) are an available resource to help with connecting or registering on the KodeNet XMPP network. 
+See the [docs](/docs) to get help with connecting, registering and other service related info.
