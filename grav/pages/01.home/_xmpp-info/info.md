@@ -16,6 +16,6 @@ Use these settings to connect your Jabber ID using your favorite client.
   <img src='https://check.messaging.one/badge.php?domain=im.koderoot.net' alt='IM observatory score' /></a>
 
 # Register
-+ [Web Registration](https://im.koderoot.net/xmpp_register)
++ [Web Registration](https://im.koderoot.net/register_web)
 + Inband-registration using a supported IM client
 
