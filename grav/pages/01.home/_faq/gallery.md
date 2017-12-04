@@ -3,6 +3,7 @@ title: FAQ
 heading: FAQ
 background_image: ''
 ---
+
 <br>
 # XMPP
 **Can anyone register an account?**
@@ -28,6 +29,12 @@ Users can update their existing password using a number of XMPP clients for in-b
 
 **Which XMPP communication server is being used?**
 [Prosody](https://prosody.im)
+
+**What XMPP extensions are supported?**
+See the [docs](/docs/xep) for a descriptive list.
+
+**How can I do audio and video conferencing?**
+Check out the [Jitsi](https://jitsi.org/downloads/) desktop and mobile apps - featuring the world's best video conferences. 
 
 **What can I do about spam or abuse?**
 Spam and abuse including advertisements of any kind will not be tolerated on this network. For spam or abuse please email abuse@kode.email with the full details. If Staff is online you can also send an Instant Message.

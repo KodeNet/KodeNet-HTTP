@@ -11,7 +11,9 @@ Users can also choose to register chat accounts on the [kode.im](https://www.kod
 + **port** 5222
 + **muc** muc.kode.im
 + **tor** ihkw7qy3tok45dun.onion
-+ <a href='https://xmpp.net/result.php?domain=kode.im&amp;type=client'><img src='https://xmpp.net/badge.php?domain=kode.im' alt='xmpp.net score' /></a>
++ <img src='https://media.koderoot.net/images/badge_jabber_at.svg' alt='xmpp.net score' />
++ <a href='https://check.messaging.one/result.php?domain=kode.im&amp;type=server'>
+  <img src='https://check.messaging.one/badge.php?domain=kode.im' alt='IM observatory score' /></a>
 
 # Register
 + Inband-registration using a supported IM client
