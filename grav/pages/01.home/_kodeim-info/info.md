@@ -16,5 +16,6 @@ Users can also choose to register chat accounts on the [kode.im](https://www.kod
   <img src='https://check.messaging.one/badge.php?domain=kode.im' alt='IM observatory score' /></a>
 
 # Register
++ [Web Registration](https://im.koderoot.net/register-on-kode.im)
 + Inband-registration using a supported IM client
 
