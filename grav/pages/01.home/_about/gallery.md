@@ -11,11 +11,10 @@ _This Messaging Server is a secure public XMPP Jabber Service with support for M
 KodeNet provides Jabber account services for the XMPP communications protocol. SSL/TLS encryption is [required](https://github.com/stpeter/manifesto/blob/master/manifesto.txt) between clients and servers (C2S) and server to server (S2S) connections. For increased security enable [Off-The-Record](https://otr.cypherpunks.ca/) in your chat client to have fully encrypted chats. Check out the [XMPP Standards Foundation](https://xmpp.org/software/clients.html) for a list of XMPP clients.
 <br><br>
 
-# OMEMO Ready ![Ready](check-mark-green.png)
+# OMEMO  ![Ready](check-mark-green.png)
 >OMEMO is an open standard encryption protocol that not only gives you better encryption features than OpenPGP and OTR but is also much easier to setup. OMEMO lets you send encrypted messages to someone who is currently offline, uses multiple clients and simultaneously receive a copy of that message on all of your devices. Turn it on once and forget you ever did.
 
 KodeNet supports <a href="https://conversations.im/omemo/" target="_blank" alt="OMEMO">OMEMO</a> - the world's most advanced secure multi-client end-to-end encryption.
 <br>
 
 <a href="https://conversations.im/omemo/" target="_blank" alt="OMEMO"><img src="https://media.koderoot.net/images/omemo_logo.png" title="OMEMO Encryption Ready" /></a>
-
