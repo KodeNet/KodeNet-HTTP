@@ -1,14 +1,14 @@
 ---
 title: XMPP
 heading: 'XMPP info'
-background_image: abstract-binary-blue-matrix.jpg
+background_image: technology-background-2005.jpg
 content_position: right
 ---
 
 Use these settings to connect your Jabber ID using your favorite client.
 
 + **host** im.koderoot.net
-+ **port** 5222
++ **port** 5222 or 443
 + **muc** muc.im.koderoot.net
 + **tor** ihkw7qy3tok45dun.onion
 + <img src='https://media.koderoot.net/images/badge_jabber_at.svg' alt='xmpp.net score' />

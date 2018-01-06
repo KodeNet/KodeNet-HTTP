@@ -1,14 +1,14 @@
 ---
 title: KodeIM
 heading: 'Kode IM'
-background_image: abstract-binary-code.jpg
+background_image: hi-tech-hd-blue-technology-background-27.jpg
 content_position: left
 ---
 
 Users can also choose to register chat accounts on the [kode.im](https://www.kode.im) domain.
 
 + **host** kode.im
-+ **port** 5222
++ **port** 5222 or 443
 + **muc** muc.kode.im
 + **tor** ihkw7qy3tok45dun.onion
 + <img src='https://media.koderoot.net/images/badge_jabber_at.svg' alt='xmpp.net score' />
