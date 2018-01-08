@@ -14,7 +14,7 @@ KodeNet provides Jabber accounts for the XMPP communications protocol and keeps 
 # OMEMO  ![Ready](check-mark-green.png)
 >OMEMO is an open standard encryption protocol that not only gives you better encryption features than OpenPGP and OTR but is also much easier to setup. OMEMO lets you send encrypted messages to someone who is currently offline, uses multiple clients and simultaneously receive a copy of that message on all of your devices. Turn it on once and forget you ever did.
 
-KodeNet supports <a href="https://conversations.im/omemo/" target="_blank" alt="OMEMO">OMEMO</a> - the world's most advanced secure multi-client end-to-end encryption.
+KodeNet supports <a href="https://conversations.im/omemo/" target="_blank" alt="OMEMO">OMEMO</a> - the world's most advanced secure multi-client end-to-end encryption. Check out the progress of <a href="https://omemo.top/" target="_blank" alt="OMEMO client integration list">OMEMO integrated</a> XMPP clients.
 <br>
 
 <a href="https://conversations.im/omemo/" target="_blank" alt="OMEMO"><img src="https://media.koderoot.net/images/omemo_logo.png" title="OMEMO Encryption Ready" /></a>
