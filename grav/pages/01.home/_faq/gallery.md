@@ -37,10 +37,7 @@ See the [docs](/docs/xep) for a descriptive list.
 Check out the [Jitsi](https://jitsi.org/downloads/) desktop and mobile apps - featuring the world's best video conferences. 
 
 **What can I do about spam or abuse?**
-Spam and abuse including advertisements of any kind will not be tolerated on this network. For spam or abuse please email abuse@kode.email with the full details. If Staff is online you can also send an Instant Message.
-
-**What else can be done to help with spam?**
-KodeNet XMPP blocks strangers not in your roster list. There are also measures in place to block entire spammer domains.
+KodeNet supports blocking and is available to users. Spam and abuse including advertisements of any kind will not be tolerated on this network. For spam or abuse please email abuse@kode.email with the full details. If Staff is online you can also send an Instant Message.
 
 <br>
 # IRC
