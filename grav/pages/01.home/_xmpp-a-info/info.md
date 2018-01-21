@@ -1,11 +1,12 @@
 ---
-title: XMPP
-heading: 'XMPP info'
+title: XMPP-A
 background_image: technology-background-2005.jpg
 content_position: right
 ---
+![](XMPP_logo.png)
+# Domain A info
 
-Use these settings to connect your Jabber ID using your favorite client.
+Use these settings to connect your Jabber ID with your favorite desktop and mobile chat clients.
 
 + **host** im.koderoot.net
 + **port** 5222 or 443

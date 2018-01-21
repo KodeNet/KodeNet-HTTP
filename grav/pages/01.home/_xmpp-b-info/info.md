@@ -1,9 +1,10 @@
 ---
-title: KodeIM
-heading: 'Kode IM'
+title: XMPP-B
 background_image: hi-tech-hd-blue-technology-background-27.jpg
 content_position: left
 ---
+![](XMPP_logo.png)
+# Domain B info
 
 Users can also choose to register chat accounts on the [kode.im](https://www.kode.im) domain.
 
