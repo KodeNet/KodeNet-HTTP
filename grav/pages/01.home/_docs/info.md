@@ -1,12 +1,8 @@
 ---
 title: Docs
-heading: 'Kode Docs'
-background_image: Documentation.jpg
+heading: 'Support'
+background_image: help_button.jpg
 content_position: right
-images:
-    -
-        title: Documentation
-        full: Documentation.jpg
 ---
 
 See the [docs](/docs) to get help with connecting, registering and other service related info.
