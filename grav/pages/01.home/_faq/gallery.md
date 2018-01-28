@@ -6,8 +6,8 @@ background_image: ''
 
 <br>
 # XMPP
-**Can anyone register an account?**
-Yes. Public XMPP registrations are open to those looking for a chat account. 
+**I forgot my password or passphrase. Can this be reset?**
+It is possible to reset. During web registration users can optionally enter an email address that will be used in the account vCard. You can always add or edit the email address found in the account vCard even if this was not specified during registration. Those requesting a password reset will be required to prove account ownership, so contacting staff from the email address found in the user's vCard can possibly help with a temporary password reset that can then be updated with most XMPP/Jabber clients.
 
 **How long are inactive accounts kept?**
 Inactive user accounts are removed after 6 months.
@@ -21,13 +21,10 @@ User account credentials are [hashed](https://en.wikipedia.org/wiki/Cryptographi
 **What is the minimum amount of characters a password or passphrase must be?**
  8 characters.
  
-**What address can I use for a File Transfer Proxy?**
+**What address can I use for File Transfers?**
 `proxy.im.koderoot.net` or `proxy.kode.im`
 
-**I forgot my password or passphrase. Can this be reset?**
-Users can update their existing password using a number of XMPP clients for in-band password resets. For security reasons there is currently no way to change a forgotten password. 
-
-**Which XMPP communication server is being used?**
+**Which XMPP/Jabber communication server is being used?**
 [Prosody](https://prosody.im)
 
 **What XMPP extensions are supported?**
