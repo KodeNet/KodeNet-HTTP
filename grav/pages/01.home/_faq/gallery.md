@@ -43,4 +43,6 @@ See [the docs](https://www.koderoot.net/docs/irc/info) on connecting to the netw
 <br>
 # Support
 **How can I report issues?**
-New issues can be submitted on the project's [GitHub](https://github.com/KodeNet/statuspage/issues) page.
+New issues can be submitted on the project's GitHub System Status Page.
+<div class="github-card" data-github="kodenet" data-width="400" data-height="317" data-theme="medium" data-target="blank" data-repo="statuspage"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
