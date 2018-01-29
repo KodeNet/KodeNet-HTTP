@@ -1,7 +1,7 @@
 ---
 title: Docs
 heading: 'Support'
-background_image: help_button.jpg
+background_image: help_button_smaller.jpg
 content_position: right
 ---
 
