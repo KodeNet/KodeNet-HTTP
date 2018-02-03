@@ -6,9 +6,6 @@ background_image: ''
 
 <br>
 # XMPP
-**Which XMPP extensions are supported?**
-See the [docs](https://docs.koderoot.net/xep) for a descriptive list.
-
 **What is the default encryption policy?**
 XMPP/Jabber clients are required to use TLS encrypted connections while servers require both TLS encryption and certificate authentication. This means XMPP/Jabber servers you communicate with must use encryption **and** present valid trusted certificates. As an added measure only ciphers that enable forward secrecy are allowed. This means encrypted communications and sessions recorded in the past cannot be retrieved and decrypted should long-term secret keys or passwords be compromised in the future, even if the adversary actively interfered.
 
