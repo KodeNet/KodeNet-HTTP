@@ -12,7 +12,7 @@ Use these settings to connect your Jabber ID with your favorite desktop and mobi
 + **port** `5222` or `443`
 + **muc** `muc.im.koderoot.net`
 + **tor** `ihkw7qy3tok45dun.onion`
-+ <a href='https://xmpp.net/result.php?domain=kode.im&amp;type=client'><img src='https://xmpp.net/badge.php?domain=kode.im' alt='xmpp.net score' /></a>
++ <a href='https://xmpp.net/result.php?domain=im.koderoot.net&amp;type=client'><img src='https://xmpp.net/badge.php?domain=im.koderoot.net' alt='xmpp.net score' /></a>
 + <a href='https://check.messaging.one/result.php?domain=im.koderoot.net&amp;type=server'>
   <img src='https://check.messaging.one/badge.php?domain=im.koderoot.net' alt='IM observatory score' /></a>
 
