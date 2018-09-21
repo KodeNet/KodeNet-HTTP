@@ -13,8 +13,6 @@ Users can also choose to register chat accounts on the [kode.im](https://www.kod
 + **muc** `muc.kode.im`
 + **tor** `ihkw7qy3tok45dun.onion`
 + <a href='https://xmpp.net/result.php?domain=kode.im&amp;type=client'><img src='https://xmpp.net/badge.php?domain=kode.im' alt='xmpp.net score' /></a>
-+ <a href='https://check.messaging.one/result.php?domain=kode.im&amp;type=server'>
-  <img src='https://check.messaging.one/badge.php?domain=kode.im' alt='IM observatory score' /></a>
 
 # Register
 + [Web Registration](https://im.koderoot.net/register-on-kode.im)

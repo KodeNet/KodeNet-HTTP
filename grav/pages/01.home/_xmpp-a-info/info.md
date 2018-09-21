@@ -13,8 +13,6 @@ Use these settings to connect your Jabber ID with your favorite desktop and mobi
 + **muc** `muc.im.koderoot.net`
 + **tor** `ihkw7qy3tok45dun.onion`
 + <a href='https://xmpp.net/result.php?domain=im.koderoot.net&amp;type=client'><img src='https://xmpp.net/badge.php?domain=im.koderoot.net' alt='xmpp.net score' /></a>
-+ <a href='https://check.messaging.one/result.php?domain=im.koderoot.net&amp;type=server'>
-  <img src='https://check.messaging.one/badge.php?domain=im.koderoot.net' alt='IM observatory score' /></a>
 
 # Register
 + [Web Registration](https://im.koderoot.net/register-on-im.koderoot.net)
