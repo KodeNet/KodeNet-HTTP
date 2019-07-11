@@ -25,8 +25,9 @@ heading: Stats
 <img src="https://munin.koderoot.net/im/kode.im/global_stats_duration-day.png" alt="Prosody Global Day Stats Duration" />
 <img src="https://munin.koderoot.net/im/kode.im/global_stats_duration-week.png" alt="Prosody Global Week Stats Duration" />
 
+<br><br>
+<b>KodeNet IRC</b>
 <br>
-# IRC
 <img src="https://munin.koderoot.net/koderoot.net/venus.koderoot.net/ircstats-day.png" alt="IRC Day Stats" />
 <img src="https://munin.koderoot.net/koderoot.net/venus.koderoot.net/ircstats-week.png" alt="IRC Week Stats" />
 </details>
