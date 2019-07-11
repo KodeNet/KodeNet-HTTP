@@ -4,6 +4,8 @@ heading: Stats
 ---
 <br>
 # KodeNet Jabber/XMPP
+<details>
+<summary>Display Graphs</summary>
 <img src="https://munin.koderoot.net/koderoot.net/io.koderoot.net/prosody_c2s-day.png" alt="XMPP c2s Day Stats" />
 <img src="https://munin.koderoot.net/koderoot.net/io.koderoot.net/prosody_c2s-week.png" alt="XMPP c2s Week Stats" />
 <img src="https://munin.koderoot.net/koderoot.net/io.koderoot.net/prosody_presence-day.png" alt="XMPP presence Day Stats" />
@@ -27,6 +29,7 @@ heading: Stats
 # IRC
 <img src="https://munin.koderoot.net/koderoot.net/venus.koderoot.net/ircstats-day.png" alt="IRC Day Stats" />
 <img src="https://munin.koderoot.net/koderoot.net/venus.koderoot.net/ircstats-week.png" alt="IRC Week Stats" />
+</details>
 
 <br>
 # Status Page
