@@ -12,4 +12,4 @@ Use these settings to connect to the KodeNet IRC network. The web client is alwa
 + **host** `irc.koderoot.net`
 + **port** `6667`
 + **tls** `6697`
-+ **web** [WebIRC](https://webirc.koderoot.net)
++ **web** [WebIRC](https://webirc.kode.im)
