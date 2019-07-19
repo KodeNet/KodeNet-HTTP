@@ -13,7 +13,8 @@ XMPP/Jabber clients are required to use TLS encrypted connections while servers 
 
 <details>
 <summary>What is the privacy policy?</summary>
-No more information is collected and stored than what is absolutely necessary. This includes rosters, vCards and offline messages which OMEMO can store encrypted. OTR does not support encrypting offline messages. The server logs are minimal and do not keep an IP history of any users. The logs are there for debugging connection issues and showing basic server info like which XMPP/Jabber servers KodeNet is talking to, the encryption strength or if a server's certificate is invalid, expired, or not trusted.
+No more information is collected and stored than what is absolutely necessary. This includes rosters, vCards and offline messages which OMEMO can store encrypted. OTR does not support encrypting offline messages. <strike>The server logs are minimal and do not keep an IP history of any users. The logs are there for debugging connection issues and showing basic server info like which XMPP/Jabber servers KodeNet is talking to, the encryption strength or if a server's certificate is invalid, expired, or not trusted.</strike>. For security reasons the chat server does not keep any access logs. The error logs will still exist for troubleshooting any potential server-side errors. Rather than us
+ing a networked database the server takes advantage of using flat-files.
 </details>
 
 <details>
