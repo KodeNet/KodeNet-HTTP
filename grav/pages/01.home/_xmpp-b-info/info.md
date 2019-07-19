@@ -12,7 +12,7 @@ Users can also choose to register chat accounts on the [kode.im](https://www.kod
 + **port** `5222` or `443`
 + **muc** `muc.kode.im`
 + **tor** `ihkw7qy3tok45dun.onion`
-+ <a href='https://xmpp.net/result.php?domain=kode.im&amp;type=client'><img src='https://xmpp.net/badge.php?domain=kode.im' alt='xmpp.net score' /></a>
++ <img src='user/pages/01.home/_xmpp-b-info/XMPP_badge.png' alt='xmpp.net score' height="28" width="205" />
 
 # Register
 + [Web Registration](https://im.koderoot.net/register-on-kode.im)
