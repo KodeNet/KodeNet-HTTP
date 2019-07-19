@@ -12,7 +12,7 @@ Use these settings to connect your Jabber ID with your favorite desktop and mobi
 + **port** `5222` or `443`
 + **muc** `muc.im.koderoot.net`
 + **tor** `ihkw7qy3tok45dun.onion`
-+ <img src='user/pages/01.home/_xmpp-a-info/XMPP_badge.png' alt='xmpp.net score' height="28" width="205" />
++ <img src='https://media.koderoot.net/images/badge_jabber_at.svg' alt='xmpp.net score' />
 
 # Register
 + [Web Registration](https://im.koderoot.net/register-on-im.koderoot.net)
