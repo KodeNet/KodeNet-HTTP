@@ -2,4 +2,4 @@
 title: Contact
 heading: 'Get In Touch.'
 ---
-!!!! _Send a secure <a href="mailto:contact@kode.email">email</a> using this Public Key [7F300F7C](https://media.koderoot.net/keys/contact/7F300F7C.asc)._
+!!!! _Send a secure email message using this [Public PGP Key](https://keys.kode.email/pks/lookup?op=get&search=contact%40kode.email)._
