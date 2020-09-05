@@ -63,13 +63,6 @@ KodeNet supports a blocking feature that is available to users. Spam and abuse i
 </details>
 
 <br>
-# IRC
-<details>
-<summary>Where can I find KodeNet IRC info?</summary>
-See <a href="https://docs.koderoot.net/irc/info">the docs</a> for connecting to the network, registering usernames, channels and vhosts.
-</details>
-
-<br>
 # Support
 <details>
 <summary>How can I report issues?</summary>

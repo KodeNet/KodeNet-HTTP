@@ -10,7 +10,6 @@ content:
             - _about
             - _xmpp-a-info
             - _xmpp-b-info
-            - _irc-info
             - _stats
             - _docs
             - _faq
